@@ -1,4 +1,6 @@
-## Cooltizbe - schedule application for IITU on iOS platform
+<img src=".github/hero.png" alt="Cooltizbe logo" height="70">
+
+Cooltizbe - schedule application for IITU on iOS platform
 
 ## Getting Started
 
