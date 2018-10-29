@@ -15,6 +15,8 @@ $ cd cooltizbe
 $ pod install
 ```
 
+3. Open the Xcode workspace at `cooltizbe.xcworkspace` and run the app.
+
 ## Support
 
 If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/cooltizbe/issues/new)
