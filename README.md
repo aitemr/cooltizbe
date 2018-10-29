@@ -2,7 +2,7 @@
 
 Cooltizbe - schedule application for IITU on iOS platform
 
-## Getting Started
+## Setup
 
 1. Clone the repo
 
