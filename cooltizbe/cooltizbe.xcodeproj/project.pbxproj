@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
+		ADF142A72187548100844794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A62187548100844794 /* ViewController.swift */; };
+		ADF142AA2187548100844794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF142A82187548100844794 /* Main.storyboard */; };
+		ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */; };
+		ADF142AF2187548200844794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF142AE2187548200844794 /* Assets.xcassets */; };
+		ADF142B22187548200844794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF142B02187548200844794 /* LaunchScreen.storyboard */; };
+		ADF142BD2187548200844794 /* cooltizbeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142BC2187548200844794 /* cooltizbeTests.swift */; };
+		ADF142C82187548200844794 /* cooltizbeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142C72187548200844794 /* cooltizbeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF142B92187548200844794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF142992187548000844794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF142A02187548000844794;
+			remoteInfo = cooltizbe;
+		};
+		ADF142C42187548200844794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF142992187548000844794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF142A02187548000844794;
+			remoteInfo = cooltizbe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF142A42187548100844794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF142A62187548100844794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADF142A92187548100844794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF142AC2187548100844794 /* cooltizbe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cooltizbe.xcdatamodel; sourceTree = "<group>"; };
+		ADF142AE2187548200844794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF142B12187548200844794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF142B32187548200844794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF142B82187548200844794 /* cooltizbeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooltizbeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF142BC2187548200844794 /* cooltizbeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooltizbeTests.swift; sourceTree = "<group>"; };
+		ADF142BE2187548200844794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF142C32187548200844794 /* cooltizbeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooltizbeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF142C72187548200844794 /* cooltizbeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooltizbeUITests.swift; sourceTree = "<group>"; };
+		ADF142C92187548200844794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF1429E2187548000844794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF142B52187548200844794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF142C02187548200844794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF142982187548000844794 = {
+			isa = PBXGroup;
+			children = (
+				ADF142A32187548100844794 /* cooltizbe */,
+				ADF142BB2187548200844794 /* cooltizbeTests */,
+				ADF142C62187548200844794 /* cooltizbeUITests */,
+				ADF142A22187548100844794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF142A22187548100844794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF142A12187548100844794 /* cooltizbe.app */,
+				ADF142B82187548200844794 /* cooltizbeTests.xctest */,
+				ADF142C32187548200844794 /* cooltizbeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF142A32187548100844794 /* cooltizbe */ = {
+			isa = PBXGroup;
+			children = (
+				ADF142A42187548100844794 /* AppDelegate.swift */,
+				ADF142A62187548100844794 /* ViewController.swift */,
+				ADF142A82187548100844794 /* Main.storyboard */,
+				ADF142AE2187548200844794 /* Assets.xcassets */,
+				ADF142B02187548200844794 /* LaunchScreen.storyboard */,
+				ADF142B32187548200844794 /* Info.plist */,
+				ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */,
+			);
+			path = cooltizbe;
+			sourceTree = "<group>";
+		};
+		ADF142BB2187548200844794 /* cooltizbeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF142BC2187548200844794 /* cooltizbeTests.swift */,
+				ADF142BE2187548200844794 /* Info.plist */,
+			);
+			path = cooltizbeTests;
+			sourceTree = "<group>";
+		};
+		ADF142C62187548200844794 /* cooltizbeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF142C72187548200844794 /* cooltizbeUITests.swift */,
+				ADF142C92187548200844794 /* Info.plist */,
+			);
+			path = cooltizbeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF142A02187548000844794 /* cooltizbe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF142CC2187548200844794 /* Build configuration list for PBXNativeTarget "cooltizbe" */;
+			buildPhases = (
+				ADF1429D2187548000844794 /* Sources */,
+				ADF1429E2187548000844794 /* Frameworks */,
+				ADF1429F2187548000844794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cooltizbe;
+			productName = cooltizbe;
+			productReference = ADF142A12187548100844794 /* cooltizbe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF142B72187548200844794 /* cooltizbeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF142CF2187548200844794 /* Build configuration list for PBXNativeTarget "cooltizbeTests" */;
+			buildPhases = (
+				ADF142B42187548200844794 /* Sources */,
+				ADF142B52187548200844794 /* Frameworks */,
+				ADF142B62187548200844794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF142BA2187548200844794 /* PBXTargetDependency */,
+			);
+			name = cooltizbeTests;
+			productName = cooltizbeTests;
+			productReference = ADF142B82187548200844794 /* cooltizbeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADF142C22187548200844794 /* cooltizbeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF142D22187548200844794 /* Build configuration list for PBXNativeTarget "cooltizbeUITests" */;
+			buildPhases = (
+				ADF142BF2187548200844794 /* Sources */,
+				ADF142C02187548200844794 /* Frameworks */,
+				ADF142C12187548200844794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF142C52187548200844794 /* PBXTargetDependency */,
+			);
+			name = cooltizbeUITests;
+			productName = cooltizbeUITests;
+			productReference = ADF142C32187548200844794 /* cooltizbeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF142992187548000844794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Islam Temirbek";
+				TargetAttributes = {
+					ADF142A02187548000844794 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ADF142B72187548200844794 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ADF142A02187548000844794;
+					};
+					ADF142C22187548200844794 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ADF142A02187548000844794;
+					};
+				};
+			};
+			buildConfigurationList = ADF1429C2187548000844794 /* Build configuration list for PBXProject "cooltizbe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF142982187548000844794;
+			productRefGroup = ADF142A22187548100844794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF142A02187548000844794 /* cooltizbe */,
+				ADF142B72187548200844794 /* cooltizbeTests */,
+				ADF142C22187548200844794 /* cooltizbeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF1429F2187548000844794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF142B22187548200844794 /* LaunchScreen.storyboard in Resources */,
+				ADF142AF2187548200844794 /* Assets.xcassets in Resources */,
+				ADF142AA2187548100844794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF142B62187548200844794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF142C12187548200844794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF1429D2187548000844794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF142A72187548100844794 /* ViewController.swift in Sources */,
+				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
+				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF142B42187548200844794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF142BD2187548200844794 /* cooltizbeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF142BF2187548200844794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF142C82187548200844794 /* cooltizbeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF142BA2187548200844794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF142A02187548000844794 /* cooltizbe */;
+			targetProxy = ADF142B92187548200844794 /* PBXContainerItemProxy */;
+		};
+		ADF142C52187548200844794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF142A02187548000844794 /* cooltizbe */;
+			targetProxy = ADF142C42187548200844794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF142A82187548100844794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF142A92187548100844794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF142B02187548200844794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF142B12187548200844794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF142CA2187548200844794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADF142CB2187548200844794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF142CD2187548200844794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89552A5N47;
+				INFOPLIST_FILE = cooltizbe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.aitemr.cooltizbe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF142CE2187548200844794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89552A5N47;
+				INFOPLIST_FILE = cooltizbe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.aitemr.cooltizbe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADF142D02187548200844794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89552A5N47;
+				INFOPLIST_FILE = cooltizbeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.aitemr.cooltizbeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cooltizbe.app/cooltizbe";
+			};
+			name = Debug;
+		};
+		ADF142D12187548200844794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89552A5N47;
+				INFOPLIST_FILE = cooltizbeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.aitemr.cooltizbeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cooltizbe.app/cooltizbe";
+			};
+			name = Release;
+		};
+		ADF142D32187548200844794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89552A5N47;
+				INFOPLIST_FILE = cooltizbeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.aitemr.cooltizbeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cooltizbe;
+			};
+			name = Debug;
+		};
+		ADF142D42187548200844794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89552A5N47;
+				INFOPLIST_FILE = cooltizbeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.aitemr.cooltizbeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cooltizbe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF1429C2187548000844794 /* Build configuration list for PBXProject "cooltizbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF142CA2187548200844794 /* Debug */,
+				ADF142CB2187548200844794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF142CC2187548200844794 /* Build configuration list for PBXNativeTarget "cooltizbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF142CD2187548200844794 /* Debug */,
+				ADF142CE2187548200844794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF142CF2187548200844794 /* Build configuration list for PBXNativeTarget "cooltizbeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF142D02187548200844794 /* Debug */,
+				ADF142D12187548200844794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF142D22187548200844794 /* Build configuration list for PBXNativeTarget "cooltizbeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF142D32187548200844794 /* Debug */,
+				ADF142D42187548200844794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADF142AC2187548100844794 /* cooltizbe.xcdatamodel */,
+			);
+			currentVersion = ADF142AC2187548100844794 /* cooltizbe.xcdatamodel */;
+			path = cooltizbe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADF142992187548000844794 /* Project object */;
+}
