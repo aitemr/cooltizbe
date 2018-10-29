@@ -1,4 +1,4 @@
-# CoolTizbe
+## Cooltizbe - schedule application for IITU on iOS platform
 
 ## Getting Started
 
@@ -14,3 +14,11 @@ $ cd cooltizbe
 ```bash
 $ pod install
 ```
+
+## Support
+
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/design-patterns/issues/new)
+
+## License
+
+[MIT License](./LICENSE) © Islam Temirbek
