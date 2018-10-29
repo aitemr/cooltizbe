@@ -23,8 +23,6 @@ $ pod install
 
 Cooltizbe iOS app is written in Swift using the MVVM architecture. It's built with [RxSwift](https://github.com/ReactiveX/RxSwift), [Alamofire](https://github.com/Alamofire/Alamofire), [Moya](https://github.com/Moya/Moya), [SwiftLint](https://github.com/realm/SwiftLint)
 
-## Setup
-
 ## Support
 
 If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/cooltizbe/issues/new)
