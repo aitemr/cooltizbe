@@ -76,6 +76,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADB3E16D2188D22000701FA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADB3E16E2188D22C00701FA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADB3E16F2188D23300701FA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADB3E1702188D2A000701FA0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		ADF142982187548000844794 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +127,10 @@
 		ADF142A32187548100844794 /* cooltizbe */ = {
 			isa = PBXGroup;
 			children = (
+				ADB3E1702188D2A000701FA0 /* App */,
+				ADB3E16F2188D23300701FA0 /* Controllers */,
+				ADB3E16E2188D22C00701FA0 /* Views */,
+				ADB3E16D2188D22000701FA0 /* Models */,
 				ADF142A42187548100844794 /* AppDelegate.swift */,
 				ADF142A62187548100844794 /* ViewController.swift */,
 				ADF142A82187548100844794 /* Main.storyboard */,
