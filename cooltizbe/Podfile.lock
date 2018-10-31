@@ -7,17 +7,26 @@ PODS:
   - AppCenter/Core (1.9.0)
   - AppCenter/Crashes (1.9.0):
     - AppCenter/Core
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
 
 DEPENDENCIES:
   - AppCenter (= 1.9.0)
+  - RxCocoa (= 4.3.1)
+  - RxSwift (= 4.3.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AppCenter
+    - RxCocoa
+    - RxSwift
 
 SPEC CHECKSUMS:
   AppCenter: 3cf7b9387549e9703dab068793e404013e8c0cc1
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
 
-PODFILE CHECKSUM: 3c1c2f02b1d542503b92c2247d5d2965aab669d3
+PODFILE CHECKSUM: 13e267e76af3f9ec4b2e2a3c3b34ec77693ad0d6
 
 COCOAPODS: 1.5.3
