@@ -1,11 +1,3 @@
-//
-//  cooltizbeTests.swift
-//  cooltizbeTests
-//
-//  Created by Islam Temirbek on 10/29/18.
-//  Copyright © 2018 Islam Temirbek. All rights reserved.
-//
-
 import XCTest
 @testable import cooltizbe
 
@@ -30,5 +22,4 @@ class CooltizbeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

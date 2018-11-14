@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  cooltizbe
-//
-//  Created by Islam Temirbek on 10/29/18.
-//  Copyright © 2018 Islam Temirbek. All rights reserved.
-//
-
 import UIKit
 import CoreData
 import AppCenter

@@ -1,11 +1,3 @@
-//
-//  cooltizbeUITests.swift
-//  cooltizbeUITests
-//
-//  Created by Islam Temirbek on 10/29/18.
-//  Copyright © 2018 Islam Temirbek. All rights reserved.
-//
-
 import XCTest
 
 class CooltizbeUITests: XCTestCase {
@@ -32,5 +24,4 @@ class CooltizbeUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
 }
