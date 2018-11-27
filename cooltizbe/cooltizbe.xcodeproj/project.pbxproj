@@ -25,7 +25,7 @@
 		AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDD21AD8F7E000EB149 /* FooterView.swift */; };
 		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
 		AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CE221AD901E000EB149 /* SettingsCordinator.swift */; };
-		AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* Settings.xcassets */; };
+		AD871CE621AD9089000EB149 /* settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* settings.xcassets */; };
 		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
 		ADF142A72187548100844794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A62187548100844794 /* ViewController.swift */; };
 		ADF142AA2187548100844794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF142A82187548100844794 /* Main.storyboard */; };
@@ -75,7 +75,7 @@
 		AD871CDD21AD8F7E000EB149 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		AD871CE221AD901E000EB149 /* SettingsCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCordinator.swift; sourceTree = "<group>"; };
-		AD871CE521AD9089000EB149 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
+		AD871CE521AD9089000EB149 /* settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = settings.xcassets; sourceTree = "<group>"; };
 		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF142A42187548100844794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF142A62187548100844794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 		AD871CE421AD9071000EB149 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AD871CE521AD9089000EB149 /* Settings.xcassets */,
+				AD871CE521AD9089000EB149 /* settings.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -447,7 +447,7 @@
 			files = (
 				ADF142B22187548200844794 /* LaunchScreen.storyboard in Resources */,
 				AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */,
-				AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */,
+				AD871CE621AD9089000EB149 /* settings.xcassets in Resources */,
 				ADF142AF2187548200844794 /* Assets.xcassets in Resources */,
 				AD76EDFF219C9B4E00E99503 /* ScheduleViewController.xib in Resources */,
 				AD76EDFB219C9B2800E99503 /* SearchViewController.xib in Resources */,
