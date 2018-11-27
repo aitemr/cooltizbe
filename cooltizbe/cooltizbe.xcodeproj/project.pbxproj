@@ -21,6 +21,9 @@
 		AD871CCF21AD8591000EB149 /* HeadeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCE21AD8591000EB149 /* HeadeerView.swift */; };
 		AD871CD121AD85FA000EB149 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD021AD85FA000EB149 /* Schedule.swift */; };
 		AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD321AD8770000EB149 /* SettingsViewModel.swift */; };
+		AD871CDC21AD8F57000EB149 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDB21AD8F57000EB149 /* ViewModel.swift */; };
+		AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDD21AD8F7E000EB149 /* FooterView.swift */; };
+		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
 		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
 		ADF142A72187548100844794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A62187548100844794 /* ViewController.swift */; };
 		ADF142AA2187548100844794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF142A82187548100844794 /* Main.storyboard */; };
@@ -66,6 +69,9 @@
 		AD871CCE21AD8591000EB149 /* HeadeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeadeerView.swift; path = cooltizbe/Views/HeadeerView.swift; sourceTree = SOURCE_ROOT; };
 		AD871CD021AD85FA000EB149 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		AD871CD321AD8770000EB149 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		AD871CDB21AD8F57000EB149 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AD871CDD21AD8F7E000EB149 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF142A42187548100844794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF142A62187548100844794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,9 +171,61 @@
 		AD871CD221AD875E000EB149 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				AD871CDB21AD8F57000EB149 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD871CD521AD8EF4000EB149 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AD871CD621AD8F08000EB149 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AD871CD621AD8F08000EB149 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AD871CDA21AD8F2F000EB149 /* Controllers */,
+				AD871CD921AD8F23000EB149 /* ViewModels */,
+				AD871CD821AD8F1C000EB149 /* Models */,
+				AD871CD721AD8F17000EB149 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AD871CD721AD8F17000EB149 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD871CDD21AD8F7E000EB149 /* FooterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD871CD821AD8F1C000EB149 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD871CDF21AD8F87000EB149 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD871CD921AD8F23000EB149 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
 				AD871CD321AD8770000EB149 /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD871CDA21AD8F2F000EB149 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD76EE00219C9B7800E99503 /* SettingsViewController.swift */,
+				AD76EE01219C9B7800E99503 /* SettingsViewController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		ADB3E16D2188D22000701FA0 /* Models */ = {
@@ -192,8 +250,6 @@
 				ADF142A62187548100844794 /* ViewController.swift */,
 				AD76EDF8219C9B2800E99503 /* SearchViewController.swift */,
 				AD76EDF9219C9B2800E99503 /* SearchViewController.xib */,
-				AD76EE00219C9B7800E99503 /* SettingsViewController.swift */,
-				AD76EE01219C9B7800E99503 /* SettingsViewController.xib */,
 				AD76EDFC219C9B4E00E99503 /* ScheduleViewController.swift */,
 				AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */,
 			);
@@ -225,6 +281,7 @@
 		ADF142A32187548100844794 /* cooltizbe */ = {
 			isa = PBXGroup;
 			children = (
+				AD871CD521AD8EF4000EB149 /* Modules */,
 				AD871CD221AD875E000EB149 /* ViewModels */,
 				AD871CC921AD841C000EB149 /* Coordinators */,
 				AD76EE05219C9C0000E99503 /* Resources */,
@@ -490,12 +547,15 @@
 				ADF142A72187548100844794 /* ViewController.swift in Sources */,
 				AD871CCF21AD8591000EB149 /* HeadeerView.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
+				AD871CE021AD8F87000EB149 /* Settings.swift in Sources */,
 				AD76EDFA219C9B2800E99503 /* SearchViewController.swift in Sources */,
 				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
 				AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */,
 				AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */,
 				AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */,
 				AD871CD121AD85FA000EB149 /* Schedule.swift in Sources */,
+				AD871CDC21AD8F57000EB149 /* ViewModel.swift in Sources */,
+				AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */,
 				AD871CCB21AD8502000EB149 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
