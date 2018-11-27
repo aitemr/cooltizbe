@@ -16,6 +16,10 @@
 		AD76EDFF219C9B4E00E99503 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */; };
 		AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EE00219C9B7800E99503 /* SettingsViewController.swift */; };
 		AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EE01219C9B7800E99503 /* SettingsViewController.xib */; };
+		AD871CCB21AD8502000EB149 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCA21AD8501000EB149 /* Coordinator.swift */; };
+		AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */; };
+		AD871CCF21AD8591000EB149 /* HeadeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCE21AD8591000EB149 /* HeadeerView.swift */; };
+		AD871CD121AD85FA000EB149 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD021AD85FA000EB149 /* Schedule.swift */; };
 		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
 		ADF142A72187548100844794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A62187548100844794 /* ViewController.swift */; };
 		ADF142AA2187548100844794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF142A82187548100844794 /* Main.storyboard */; };
@@ -56,6 +60,10 @@
 		AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
 		AD76EE00219C9B7800E99503 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AD76EE01219C9B7800E99503 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		AD871CCA21AD8501000EB149 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "cooltizbe/Extensions/UIView+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		AD871CCE21AD8591000EB149 /* HeadeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeadeerView.swift; path = cooltizbe/Views/HeadeerView.swift; sourceTree = SOURCE_ROOT; };
+		AD871CD021AD85FA000EB149 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF142A42187548100844794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF142A62187548100844794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +137,7 @@
 		AD76EE04219C9BB000E99503 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -137,13 +146,24 @@
 			isa = PBXGroup;
 			children = (
 				ADF142AE2187548200844794 /* Assets.xcassets */,
+				ADF142B32187548200844794 /* Info.plist */,
+				ADF142B02187548200844794 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD871CC921AD841C000EB149 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AD871CCA21AD8501000EB149 /* Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		ADB3E16D2188D22000701FA0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD871CD021AD85FA000EB149 /* Schedule.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +171,7 @@
 		ADB3E16E2188D22C00701FA0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD871CCE21AD8591000EB149 /* HeadeerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,15 +179,15 @@
 		ADB3E16F2188D23300701FA0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ADF142A62187548100844794 /* ViewController.swift */,
+				AD76EDF8219C9B2800E99503 /* SearchViewController.swift */,
+				AD76EDF9219C9B2800E99503 /* SearchViewController.xib */,
+				AD76EE00219C9B7800E99503 /* SettingsViewController.swift */,
+				AD76EE01219C9B7800E99503 /* SettingsViewController.xib */,
+				AD76EDFC219C9B4E00E99503 /* ScheduleViewController.swift */,
+				AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		ADB3E1702188D2A000701FA0 /* App */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		ADF142982187548000844794 = {
@@ -194,24 +215,15 @@
 		ADF142A32187548100844794 /* cooltizbe */ = {
 			isa = PBXGroup;
 			children = (
+				AD871CC921AD841C000EB149 /* Coordinators */,
 				AD76EE05219C9C0000E99503 /* Resources */,
 				AD76EE04219C9BB000E99503 /* Extensions */,
-				ADB3E1702188D2A000701FA0 /* App */,
 				ADB3E16F2188D23300701FA0 /* Controllers */,
 				ADB3E16E2188D22C00701FA0 /* Views */,
 				ADB3E16D2188D22000701FA0 /* Models */,
 				ADF142A42187548100844794 /* AppDelegate.swift */,
-				AD76EDFC219C9B4E00E99503 /* ScheduleViewController.swift */,
-				AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */,
-				ADF142A62187548100844794 /* ViewController.swift */,
 				ADF142A82187548100844794 /* Main.storyboard */,
-				ADF142B02187548200844794 /* LaunchScreen.storyboard */,
-				ADF142B32187548200844794 /* Info.plist */,
 				ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */,
-				AD76EDF8219C9B2800E99503 /* SearchViewController.swift */,
-				AD76EDF9219C9B2800E99503 /* SearchViewController.xib */,
-				AD76EE00219C9B7800E99503 /* SettingsViewController.swift */,
-				AD76EE01219C9B7800E99503 /* SettingsViewController.xib */,
 			);
 			path = cooltizbe;
 			sourceTree = "<group>";
@@ -465,10 +477,14 @@
 			files = (
 				AD76EDFE219C9B4E00E99503 /* ScheduleViewController.swift in Sources */,
 				ADF142A72187548100844794 /* ViewController.swift in Sources */,
+				AD871CCF21AD8591000EB149 /* HeadeerView.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD76EDFA219C9B2800E99503 /* SearchViewController.swift in Sources */,
 				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
 				AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */,
+				AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */,
+				AD871CD121AD85FA000EB149 /* Schedule.swift in Sources */,
+				AD871CCB21AD8502000EB149 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +662,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L32S293JKJ;
-				INFOPLIST_FILE = cooltizbe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/cooltizbe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -665,7 +681,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L32S293JKJ;
-				INFOPLIST_FILE = cooltizbe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/cooltizbe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
