@@ -6,6 +6,7 @@ target 'cooltizbe' do
   pod 'AppCenter', '1.9.0'
   pod 'RxSwift', '4.3.1'
   pod 'RxCocoa', '4.3.1'
+  pod 'SwiftLint', '0.28.2'
 
   target 'cooltizbeTests' do
     inherit! :search_paths

@@ -10,23 +10,27 @@ PODS:
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
   - RxSwift (4.3.1)
+  - SwiftLint (0.28.2)
 
 DEPENDENCIES:
   - AppCenter (= 1.9.0)
   - RxCocoa (= 4.3.1)
   - RxSwift (= 4.3.1)
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AppCenter
     - RxCocoa
     - RxSwift
+    - SwiftLint
 
 SPEC CHECKSUMS:
   AppCenter: 3cf7b9387549e9703dab068793e404013e8c0cc1
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  SwiftLint: f1629ae733b64e9cad20052de01d1debd5b640e7
 
-PODFILE CHECKSUM: 13e267e76af3f9ec4b2e2a3c3b34ec77693ad0d6
+PODFILE CHECKSUM: 82676c0f2909ff141c683f6dc3cdcf92b341bd7c
 
 COCOAPODS: 1.5.3
