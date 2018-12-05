@@ -10,24 +10,15 @@
 		1D940080309025B0370840A1 /* Pods_cooltizbeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A691DDD3E6EC22A2A223449 /* Pods_cooltizbeTests.framework */; };
 		68FC699F0BDC5C181CFA0BA5 /* Pods_cooltizbe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD21AFB46B9436E54925108C /* Pods_cooltizbe.framework */; };
 		6A5523E66D15D1977260222B /* Pods_cooltizbeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E58347F8D1615D86C4566F /* Pods_cooltizbeUITests.framework */; };
-		AD76EDFA219C9B2800E99503 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EDF8219C9B2800E99503 /* SearchViewController.swift */; };
-		AD76EDFB219C9B2800E99503 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EDF9219C9B2800E99503 /* SearchViewController.xib */; };
-		AD76EDFE219C9B4E00E99503 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EDFC219C9B4E00E99503 /* ScheduleViewController.swift */; };
-		AD76EDFF219C9B4E00E99503 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */; };
 		AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EE00219C9B7800E99503 /* SettingsViewController.swift */; };
 		AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EE01219C9B7800E99503 /* SettingsViewController.xib */; };
-		AD871CCB21AD8502000EB149 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCA21AD8501000EB149 /* Coordinator.swift */; };
 		AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */; };
-		AD871CCF21AD8591000EB149 /* HeadeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCE21AD8591000EB149 /* HeadeerView.swift */; };
-		AD871CD121AD85FA000EB149 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD021AD85FA000EB149 /* Schedule.swift */; };
 		AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD321AD8770000EB149 /* SettingsViewModel.swift */; };
-		AD871CDC21AD8F57000EB149 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDB21AD8F57000EB149 /* ViewModel.swift */; };
 		AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDD21AD8F7E000EB149 /* FooterView.swift */; };
 		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
 		AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CE221AD901E000EB149 /* SettingsCordinator.swift */; };
-		AD871CE621AD9089000EB149 /* settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* settings.xcassets */; };
+		AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* Settings.xcassets */; };
 		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
-		ADF142A72187548100844794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A62187548100844794 /* ViewController.swift */; };
 		ADF142AA2187548100844794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF142A82187548100844794 /* Main.storyboard */; };
 		ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */; };
 		ADF142AF2187548200844794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF142AE2187548200844794 /* Assets.xcassets */; };
@@ -60,25 +51,16 @@
 		82C57D820477CCF433F56847 /* Pods-cooltizbeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cooltizbeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cooltizbeTests/Pods-cooltizbeTests.release.xcconfig"; sourceTree = "<group>"; };
 		87D8A3A952667635B383FA92 /* Pods-cooltizbeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cooltizbeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cooltizbeTests/Pods-cooltizbeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		990AC8FE04DA4B8ED88FF22F /* Pods-cooltizbeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cooltizbeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cooltizbeUITests/Pods-cooltizbeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AD76EDF8219C9B2800E99503 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		AD76EDF9219C9B2800E99503 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
-		AD76EDFC219C9B4E00E99503 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
-		AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
 		AD76EE00219C9B7800E99503 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AD76EE01219C9B7800E99503 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
-		AD871CCA21AD8501000EB149 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "cooltizbe/Extensions/UIView+Extensions.swift"; sourceTree = SOURCE_ROOT; };
-		AD871CCE21AD8591000EB149 /* HeadeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeadeerView.swift; path = cooltizbe/Views/HeadeerView.swift; sourceTree = SOURCE_ROOT; };
-		AD871CD021AD85FA000EB149 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		AD871CD321AD8770000EB149 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		AD871CDB21AD8F57000EB149 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AD871CDD21AD8F7E000EB149 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		AD871CE221AD901E000EB149 /* SettingsCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCordinator.swift; sourceTree = "<group>"; };
-		AD871CE521AD9089000EB149 /* settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = settings.xcassets; sourceTree = "<group>"; };
+		AD871CE521AD9089000EB149 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
 		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF142A42187548100844794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADF142A62187548100844794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADF142A92187548100844794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF142AC2187548100844794 /* cooltizbe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cooltizbe.xcdatamodel; sourceTree = "<group>"; };
 		ADF142AE2187548200844794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,22 +146,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		AD871CC921AD841C000EB149 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				AD871CCA21AD8501000EB149 /* Coordinator.swift */,
-			);
-			path = Coordinators;
-			sourceTree = "<group>";
-		};
-		AD871CD221AD875E000EB149 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				AD871CDB21AD8F57000EB149 /* ViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		AD871CD521AD8EF4000EB149 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,37 +211,9 @@
 		AD871CE421AD9071000EB149 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AD871CE521AD9089000EB149 /* settings.xcassets */,
+				AD871CE521AD9089000EB149 /* Settings.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		ADB3E16D2188D22000701FA0 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AD871CD021AD85FA000EB149 /* Schedule.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		ADB3E16E2188D22C00701FA0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AD871CCE21AD8591000EB149 /* HeadeerView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		ADB3E16F2188D23300701FA0 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				ADF142A62187548100844794 /* ViewController.swift */,
-				AD76EDF8219C9B2800E99503 /* SearchViewController.swift */,
-				AD76EDF9219C9B2800E99503 /* SearchViewController.xib */,
-				AD76EDFC219C9B4E00E99503 /* ScheduleViewController.swift */,
-				AD76EDFD219C9B4E00E99503 /* ScheduleViewController.xib */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		ADF142982187548000844794 = {
@@ -304,13 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				AD871CD521AD8EF4000EB149 /* Modules */,
-				AD871CD221AD875E000EB149 /* ViewModels */,
-				AD871CC921AD841C000EB149 /* Coordinators */,
 				AD76EE05219C9C0000E99503 /* Resources */,
 				AD76EE04219C9BB000E99503 /* Extensions */,
-				ADB3E16F2188D23300701FA0 /* Controllers */,
-				ADB3E16E2188D22C00701FA0 /* Views */,
-				ADB3E16D2188D22000701FA0 /* Models */,
 				ADF142A42187548100844794 /* AppDelegate.swift */,
 				ADF142A82187548100844794 /* Main.storyboard */,
 				ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */,
@@ -447,10 +380,8 @@
 			files = (
 				ADF142B22187548200844794 /* LaunchScreen.storyboard in Resources */,
 				AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */,
-				AD871CE621AD9089000EB149 /* settings.xcassets in Resources */,
+				AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */,
 				ADF142AF2187548200844794 /* Assets.xcassets in Resources */,
-				AD76EDFF219C9B4E00E99503 /* ScheduleViewController.xib in Resources */,
-				AD76EDFB219C9B2800E99503 /* SearchViewController.xib in Resources */,
 				ADF142AA2187548100844794 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,21 +497,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD76EDFE219C9B4E00E99503 /* ScheduleViewController.swift in Sources */,
-				ADF142A72187548100844794 /* ViewController.swift in Sources */,
-				AD871CCF21AD8591000EB149 /* HeadeerView.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD871CE021AD8F87000EB149 /* Settings.swift in Sources */,
 				AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */,
-				AD76EDFA219C9B2800E99503 /* SearchViewController.swift in Sources */,
 				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
 				AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */,
 				AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */,
 				AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */,
-				AD871CD121AD85FA000EB149 /* Schedule.swift in Sources */,
-				AD871CDC21AD8F57000EB149 /* ViewModel.swift in Sources */,
 				AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */,
-				AD871CCB21AD8502000EB149 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
