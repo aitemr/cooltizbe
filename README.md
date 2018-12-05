@@ -19,9 +19,14 @@ $ pod install
 
 3. Open the Xcode workspace at `cooltizbe.xcworkspace` and run the app.
 
-## Stack
+## Dependencies
 
-Cooltizbe iOS app is written in Swift using the MVVM architecture. It's built with [RxSwift](https://github.com/ReactiveX/RxSwift), [Alamofire](https://github.com/Alamofire/Alamofire), [Moya](https://github.com/Moya/Moya), [SwiftLint](https://github.com/realm/SwiftLint)
+Cooltizbe iOS app is written in Swift using the MVVM architecture. 
+
+It's built with: 
+* [RxSwift](https://github.com/ReactiveX/RxSwift)
+* [SwiftLint](https://github.com/realm/SwiftLint)
+* [App Center](https://github.com/Microsoft/AppCenter-SDK-Apple)
 
 ## Support
 
