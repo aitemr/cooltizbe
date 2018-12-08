@@ -155,11 +155,11 @@
 		AD3574B021BC55BE001B404B /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				AD3574C121BC5BD9001B404B /* Resources */,
-				AD3574B421BC55E1001B404B /* ViewModels */,
 				AD3574B321BC55DC001B404B /* Models */,
 				AD3574B221BC55CD001B404B /* Views */,
+				AD3574B421BC55E1001B404B /* ViewModels */,
 				AD3574B121BC55C6001B404B /* Controllers */,
+				AD3574C121BC5BD9001B404B /* Resources */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -208,11 +208,11 @@
 		AD3574C421BC6C66001B404B /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
-				AD3574C921BC6C9E001B404B /* Resources */,
-				AD3574C821BC6C94001B404B /* ViewModels */,
-				AD3574C721BC6C88001B404B /* Controllers */,
 				AD3574C621BC6C82001B404B /* Models */,
 				AD3574C521BC6C71001B404B /* Views */,
+				AD3574C821BC6C94001B404B /* ViewModels */,
+				AD3574C721BC6C88001B404B /* Controllers */,
+				AD3574C921BC6C9E001B404B /* Resources */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
@@ -269,9 +269,11 @@
 		AD76EE05219C9C0000E99503 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ADF142AE2187548200844794 /* Assets.xcassets */,
 				ADF142B32187548200844794 /* Info.plist */,
 				ADF142B02187548200844794 /* LaunchScreen.storyboard */,
+				ADF142A82187548100844794 /* Main.storyboard */,
+				ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */,
+				ADF142AE2187548200844794 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -289,12 +291,12 @@
 		AD871CD621AD8F08000EB149 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				AD871CE421AD9071000EB149 /* Resources */,
-				AD871CE121AD900D000EB149 /* Cordinators */,
-				AD871CDA21AD8F2F000EB149 /* Controllers */,
-				AD871CD921AD8F23000EB149 /* ViewModels */,
 				AD871CD821AD8F1C000EB149 /* Models */,
 				AD871CD721AD8F17000EB149 /* Views */,
+				AD871CD921AD8F23000EB149 /* ViewModels */,
+				AD871CDA21AD8F2F000EB149 /* Controllers */,
+				AD871CE121AD900D000EB149 /* Cordinators */,
+				AD871CE421AD9071000EB149 /* Resources */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -373,12 +375,10 @@
 		ADF142A32187548100844794 /* cooltizbe */ = {
 			isa = PBXGroup;
 			children = (
+				ADF142A42187548100844794 /* AppDelegate.swift */,
 				AD871CD521AD8EF4000EB149 /* Modules */,
 				AD76EE05219C9C0000E99503 /* Resources */,
 				AD76EE04219C9BB000E99503 /* Extensions */,
-				ADF142A42187548100844794 /* AppDelegate.swift */,
-				ADF142A82187548100844794 /* Main.storyboard */,
-				ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */,
 			);
 			path = cooltizbe;
 			sourceTree = "<group>";
