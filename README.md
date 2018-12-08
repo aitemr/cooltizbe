@@ -32,6 +32,7 @@ It's built with:
 * [RxSwift](https://github.com/ReactiveX/RxSwift)
 * [SwiftLint](https://github.com/realm/SwiftLint)
 * [App Center](https://github.com/Microsoft/AppCenter-SDK-Apple)
+* [SkeletonView](https://github.com/Juanpe/SkeletonView)
 
 ## Support
 
