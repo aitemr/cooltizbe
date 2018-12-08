@@ -15,6 +15,7 @@
 		AD3574BC21BC565C001B404B /* SearchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BB21BC565C001B404B /* SearchTextView.swift */; };
 		AD3574BE21BC5679001B404B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BD21BC5679001B404B /* SearchViewModel.swift */; };
 		AD3574C021BC5688001B404B /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BF21BC5688001B404B /* SearchModel.swift */; };
+		AD3574C321BC5BEE001B404B /* Search.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3574C221BC5BEE001B404B /* Search.xcassets */; };
 		AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EE00219C9B7800E99503 /* SettingsViewController.swift */; };
 		AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EE01219C9B7800E99503 /* SettingsViewController.xib */; };
 		AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */; };
@@ -61,6 +62,7 @@
 		AD3574BB21BC565C001B404B /* SearchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextView.swift; sourceTree = "<group>"; };
 		AD3574BD21BC5679001B404B /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		AD3574BF21BC5688001B404B /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		AD3574C221BC5BEE001B404B /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
 		AD76EE00219C9B7800E99503 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AD76EE01219C9B7800E99503 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "cooltizbe/Extensions/UIView+Extensions.swift"; sourceTree = SOURCE_ROOT; };
@@ -141,6 +143,7 @@
 		AD3574B021BC55BE001B404B /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				AD3574C121BC5BD9001B404B /* Resources */,
 				AD3574B421BC55E1001B404B /* ViewModels */,
 				AD3574B321BC55DC001B404B /* Models */,
 				AD3574B221BC55CD001B404B /* Views */,
@@ -180,6 +183,14 @@
 				AD3574BD21BC5679001B404B /* SearchViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD3574C121BC5BD9001B404B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD3574C221BC5BEE001B404B /* Search.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		AD76EE04219C9BB000E99503 /* Extensions */ = {
@@ -438,6 +449,7 @@
 				AD3574BA21BC560D001B404B /* SearchViewController.xib in Resources */,
 				AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */,
 				ADF142AF2187548200844794 /* Assets.xcassets in Resources */,
+				AD3574C321BC5BEE001B404B /* Search.xcassets in Resources */,
 				ADF142AA2187548100844794 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
