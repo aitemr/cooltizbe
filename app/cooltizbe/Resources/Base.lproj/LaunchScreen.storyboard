@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,19 +14,36 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="nMu-tc-L1Q">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Rk0-0v-dgg">
+                                <rect key="frame" x="78.666666666666686" y="276" width="257" height="184"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="H66-TE-HHr"/>
+                                    <constraint firstAttribute="height" constant="184" id="rba-rB-05d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooltizbe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNa-ZG-ghJ">
+                                <rect key="frame" x="145" y="670" width="124" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nMu-tc-L1Q" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="99Z-UL-xaR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UNa-ZG-ghJ" secondAttribute="bottom" constant="30" id="NhD-Jm-I5b"/>
                             <constraint firstItem="nMu-tc-L1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cyE-YV-DtM"/>
+                            <constraint firstItem="UNa-ZG-ghJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hLd-Z8-Fer"/>
+                            <constraint firstItem="Rk0-0v-dgg" firstAttribute="centerX" secondItem="nMu-tc-L1Q" secondAttribute="centerX" id="jyz-nU-KcU"/>
                             <constraint firstItem="nMu-tc-L1Q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="szu-jC-RFN"/>
                             <constraint firstItem="nMu-tc-L1Q" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="xqm-i8-Scj"/>
+                            <constraint firstItem="Rk0-0v-dgg" firstAttribute="centerY" secondItem="nMu-tc-L1Q" secondAttribute="centerY" id="xu9-5f-XyK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,5 +55,6 @@
     </scenes>
     <resources>
         <image name="background" width="375" height="667"/>
+        <image name="logo" width="257" height="184"/>
     </resources>
 </document>
