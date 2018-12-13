@@ -2,7 +2,11 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-    // MARK: View Lifecycle
+    // MARK: - Properties
+    
+    @IBOutlet private weak var tableView: UITableView!
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
