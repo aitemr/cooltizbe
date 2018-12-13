@@ -28,6 +28,8 @@
 		AD84416321C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84416121C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.xib */; };
 		AD84416721C2CC5800BB0F3B /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416521C2CC5800BB0F3B /* NotificationTableViewCell.swift */; };
 		AD84416821C2CC5800BB0F3B /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84416621C2CC5800BB0F3B /* NotificationTableViewCell.xib */; };
+		AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */; };
+		AD84416C21C2D05000BB0F3B /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */; };
 		AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */; };
 		AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD321AD8770000EB149 /* SettingsViewModel.swift */; };
 		AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDD21AD8F7E000EB149 /* FooterView.swift */; };
@@ -84,6 +86,8 @@
 		AD84416121C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisclosureSettingsTableViewCell.xib; sourceTree = "<group>"; };
 		AD84416521C2CC5800BB0F3B /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		AD84416621C2CC5800BB0F3B /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
 		AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "cooltizbe/Extensions/UIView+Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		AD871CD321AD8770000EB149 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		AD871CDD21AD8F7E000EB149 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 				AD84416121C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.xib */,
 				AD84416521C2CC5800BB0F3B /* NotificationTableViewCell.swift */,
 				AD84416621C2CC5800BB0F3B /* NotificationTableViewCell.xib */,
+				AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */,
+				AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -533,6 +539,7 @@
 				AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */,
 				AD3574CB21BC6CB7001B404B /* Schedule.xcassets in Resources */,
 				AD3574BA21BC560D001B404B /* SearchViewController.xib in Resources */,
+				AD84416C21C2D05000BB0F3B /* SettingsTableViewCell.xib in Resources */,
 				AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */,
 				ADF142AF2187548200844794 /* Assets.xcassets in Resources */,
 				AD3574C321BC5BEE001B404B /* Search.xcassets in Resources */,
@@ -658,6 +665,7 @@
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD3574BC21BC565C001B404B /* SearchTextView.swift in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
+				AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */,
 				AD3574D521BC6D0A001B404B /* ScheduleHeaderView.swift in Sources */,
 				AD3574C021BC5688001B404B /* SearchModel.swift in Sources */,
 				AD871CE021AD8F87000EB149 /* Settings.swift in Sources */,
