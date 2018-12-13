@@ -1,6 +1,7 @@
 disabled_rules:
   - identifier_name
   - trailing_whitespace
+  - force_cast
 excluded:
   - Pods
 line_length:
