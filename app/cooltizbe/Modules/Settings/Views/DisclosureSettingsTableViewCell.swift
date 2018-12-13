@@ -1,24 +1,24 @@
-//
-//  DisclosureSettingsTableViewCell.swift
-//  cooltizbe
-//
-//  Created by Islam on 12/13/18.
-//  Copyright © 2018 Islam Temirbek. All rights reserved.
-//
-
 import UIKit
 
 class DisclosureSettingsTableViewCell: UITableViewCell {
 
+    // MARK: - Properties
+    
+    @IBOutlet private weak var cellImageView: UIImageView!
+    @IBOutlet private weak var title: UILabel!
+    @IBOutlet private weak var subTitle: UILabel!
+    
+    // MARK: - Lifecycle
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    // MARK: - Private
+    
+    private func configureCell() {
+        
     }
     
 }
