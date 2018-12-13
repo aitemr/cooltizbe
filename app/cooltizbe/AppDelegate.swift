@@ -11,8 +11,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        MSAppCenter.start("69c4bc53-6ad1-47e1-93db-3e07d04ffcd6",
-                          withServices: [MSAnalytics.self, MSCrashes.self])
+        configureAppCenter()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: SettingsViewController())
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -69,5 +73,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    // MARK: - Configure AppCenter
+    
+    private func configureAppCenter() {
+        MSAppCenter.start("69c4bc53-6ad1-47e1-93db-3e07d04ffcd6",
+                          withServices: [MSAnalytics.self, MSCrashes.self])
     }
 }
