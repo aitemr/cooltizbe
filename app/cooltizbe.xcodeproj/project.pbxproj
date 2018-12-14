@@ -30,7 +30,9 @@
 		AD84416821C2CC5800BB0F3B /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84416621C2CC5800BB0F3B /* NotificationTableViewCell.xib */; };
 		AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */; };
 		AD84416C21C2D05000BB0F3B /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */; };
-		AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */; };
+		AD84416E21C4154700BB0F3B /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */; };
+		AD84417021C4160F00BB0F3B /* CAGradientLayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416F21C4160F00BB0F3B /* CAGradientLayer+Extensions.swift */; };
+		AD84417221C416FA00BB0F3B /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84417121C416FA00BB0F3B /* UINavigationBar+Extensions.swift */; };
 		AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD321AD8770000EB149 /* SettingsViewModel.swift */; };
 		AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDD21AD8F7E000EB149 /* FooterView.swift */; };
 		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
@@ -88,7 +90,9 @@
 		AD84416621C2CC5800BB0F3B /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
 		AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
-		AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "cooltizbe/Extensions/UIView+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		AD84416F21C4160F00BB0F3B /* CAGradientLayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extensions.swift"; sourceTree = "<group>"; };
+		AD84417121C416FA00BB0F3B /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
 		AD871CD321AD8770000EB149 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		AD871CDD21AD8F7E000EB149 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -271,7 +275,9 @@
 		AD76EE04219C9BB000E99503 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AD871CCC21AD8511000EB149 /* UIView+Extensions.swift */,
+				AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */,
+				AD84416F21C4160F00BB0F3B /* CAGradientLayer+Extensions.swift */,
+				AD84417121C416FA00BB0F3B /* UINavigationBar+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -666,6 +672,7 @@
 				AD3574BC21BC565C001B404B /* SearchTextView.swift in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
 				AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */,
+				AD84417021C4160F00BB0F3B /* CAGradientLayer+Extensions.swift in Sources */,
 				AD3574D521BC6D0A001B404B /* ScheduleHeaderView.swift in Sources */,
 				AD3574C021BC5688001B404B /* SearchModel.swift in Sources */,
 				AD871CE021AD8F87000EB149 /* Settings.swift in Sources */,
@@ -673,10 +680,11 @@
 				AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */,
 				AD84416221C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift in Sources */,
 				AD3574B921BC560D001B404B /* SearchViewController.swift in Sources */,
+				AD84417221C416FA00BB0F3B /* UINavigationBar+Extensions.swift in Sources */,
 				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
 				AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */,
-				AD871CCD21AD8511000EB149 /* UIView+Extensions.swift in Sources */,
 				AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */,
+				AD84416E21C4154700BB0F3B /* UIColor+Colors.swift in Sources */,
 				AD3574CD21BC6CC9001B404B /* ScheduleViewModel.swift in Sources */,
 				AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */,
 			);
