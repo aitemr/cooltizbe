@@ -2,6 +2,8 @@ disabled_rules:
   - identifier_name
   - trailing_whitespace
   - force_cast
+opt_in_rules:
+  - private_outlet
 excluded:
   - Pods
 line_length:
