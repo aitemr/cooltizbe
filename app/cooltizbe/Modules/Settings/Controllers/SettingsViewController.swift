@@ -11,7 +11,24 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureNavigationBar()
         registerTableViewCells()
+    }
+    
+    // MARK: - UIStatusBarStyle
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    // MARK: - Configure Navigation Bar
+    
+    private func configureNavigationBar() {
+        title = "Settings"
+        navigationController?.navigationBar.titleTextAttributes =
+            [NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.setGradientBackground(colors: [.gradientPrimaryColor,
+                                                                           .gradientSecondaryColor])
     }
     
     // MARK: - Register TableView Cells
