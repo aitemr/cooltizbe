@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configureAppCenter()
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: SettingsViewController())
+        window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
         
         return true
