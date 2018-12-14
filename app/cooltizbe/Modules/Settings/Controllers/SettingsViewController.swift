@@ -12,7 +12,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         configureNavigationBar()
-        registerTableViewCells()
+        configureTableView()
     }
     
     // MARK: - UIStatusBarStyle
@@ -31,12 +31,20 @@ class SettingsViewController: UIViewController {
                                                                            .gradientSecondaryColor])
     }
     
-    // MARK: - Register TableView Cells
+    // MARK: - Configure Table View
     
-    private func registerTableViewCells() {
+    private func configureTableView() {
         tableView.dataSource = self
         tableView.delegate = self
         
+        tableView.separatorStyle = .none
+        
+        registerTableViewCells()
+    }
+    
+    // MARK: - Register TableView Cells
+    
+    private func registerTableViewCells() {
         let notificationNib = UINib(nibName: String(describing: NotificationTableViewCell.self), bundle: nil)
         let disclosureNib = UINib(nibName: String(describing: DisclosureSettingsTableViewCell.self), bundle: nil)
         let settingsNib = UINib(nibName: String(describing: SettingsTableViewCell.self), bundle: nil)
@@ -47,7 +55,6 @@ class SettingsViewController: UIViewController {
                            forCellReuseIdentifier: String(describing: DisclosureSettingsTableViewCell.self))
         tableView.register(settingsNib,
                            forCellReuseIdentifier: String(describing: SettingsTableViewCell.self))
-
     }
 }
 
