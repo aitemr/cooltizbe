@@ -35,21 +35,49 @@ class SettingsViewController: UIViewController {
     
     private func registerTableViewCells() {
         tableView.dataSource = self
+        tableView.delegate = self
         
         let notificationNib = UINib(nibName: String(describing: NotificationTableViewCell.self), bundle: nil)
+        let disclosureNib = UINib(nibName: String(describing: DisclosureSettingsTableViewCell.self), bundle: nil)
+        let settingsNib = UINib(nibName: String(describing: SettingsTableViewCell.self), bundle: nil)
+
         tableView.register(notificationNib,
                            forCellReuseIdentifier: String(describing: NotificationTableViewCell.self))
+        tableView.register(disclosureNib,
+                           forCellReuseIdentifier: String(describing: DisclosureSettingsTableViewCell.self))
+        tableView.register(settingsNib,
+                           forCellReuseIdentifier: String(describing: SettingsTableViewCell.self))
+
     }
 }
 
-extension SettingsViewController: UITableViewDataSource {
+// MARK: - UITableViewDataSource, UITableViewDelegate
+
+extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(withIdentifier: String(describing: NotificationTableViewCell.self),
-                                                 for: indexPath) as! NotificationTableViewCell
+        
+        switch indexPath.row {
+        case 0:
+           return tableView.dequeueReusableCell(withIdentifier: String(describing: NotificationTableViewCell.self),
+                                          for: indexPath) as! NotificationTableViewCell
+        case 1:
+            return tableView.dequeueReusableCell(withIdentifier:
+                String(describing: DisclosureSettingsTableViewCell.self),
+                                                 for: indexPath) as! DisclosureSettingsTableViewCell
+        case 2:
+            return tableView.dequeueReusableCell(withIdentifier: String(describing: SettingsTableViewCell.self),
+                                                 for: indexPath) as! SettingsTableViewCell
+        default:
+            return UITableViewCell()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
