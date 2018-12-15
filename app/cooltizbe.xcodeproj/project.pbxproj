@@ -12,7 +12,6 @@
 		6A5523E66D15D1977260222B /* Pods_cooltizbeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E58347F8D1615D86C4566F /* Pods_cooltizbeUITests.framework */; };
 		AD3574B921BC560D001B404B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574B721BC560D001B404B /* SearchViewController.swift */; };
 		AD3574BA21BC560D001B404B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3574B821BC560D001B404B /* SearchViewController.xib */; };
-		AD3574BC21BC565C001B404B /* SearchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BB21BC565C001B404B /* SearchTextView.swift */; };
 		AD3574BE21BC5679001B404B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BD21BC5679001B404B /* SearchViewModel.swift */; };
 		AD3574C021BC5688001B404B /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BF21BC5688001B404B /* SearchModel.swift */; };
 		AD3574C321BC5BEE001B404B /* Search.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3574C221BC5BEE001B404B /* Search.xcassets */; };
@@ -76,7 +75,6 @@
 		990AC8FE04DA4B8ED88FF22F /* Pods-cooltizbeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cooltizbeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cooltizbeUITests/Pods-cooltizbeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AD3574B721BC560D001B404B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		AD3574B821BC560D001B404B /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
-		AD3574BB21BC565C001B404B /* SearchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextView.swift; sourceTree = "<group>"; };
 		AD3574BD21BC5679001B404B /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		AD3574BF21BC5688001B404B /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		AD3574C221BC5BEE001B404B /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 		AD3574B221BC55CD001B404B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD3574BB21BC565C001B404B /* SearchTextView.swift */,
 				ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */,
 				ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */,
 			);
@@ -701,7 +698,6 @@
 				AD3574BE21BC5679001B404B /* SearchViewModel.swift in Sources */,
 				ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
-				AD3574BC21BC565C001B404B /* SearchTextView.swift in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
 				AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */,
 				AD84417021C4160F00BB0F3B /* CAGradientLayer+Extensions.swift in Sources */,
