@@ -11,14 +11,14 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        configureNavigationBar()
+//        configureNavigationBar()
         configureTableView()
     }
     
     // MARK: - UIStatusBarStyle
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+        return .default
     }
     
     // MARK: - Configure Navigation Bar
@@ -56,6 +56,13 @@ class SettingsViewController: UIViewController {
         tableView.register(settingsNib,
                            forCellReuseIdentifier: String(describing: SettingsTableViewCell.self))
     }
+    
+    // MARK: - Actions
+    
+    @IBAction func closeButtonDidPress(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
 
 // MARK: - UITableViewDataSource, UITableViewDelegate
