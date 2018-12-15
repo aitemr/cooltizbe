@@ -42,6 +42,15 @@ class SearchViewController: UIViewController {
         searchTextField.layer.addSublayer(border)
         searchTextField.layer.sublayerTransform = CATransform3DMakeTranslation(16, 0, 0)
         searchTextField.layer.masksToBounds = true
+        
+        addInputAccessoryView()
+    }
+    
+    private func addInputAccessoryView() {
+        searchTextField.inputAccessoryView = ShowScheduleButton(frame: CGRect(x: 0,
+                                                                              y: 0,
+                                                                              width: view.frame.width,
+                                                                              height: 44))
     }
     
 }

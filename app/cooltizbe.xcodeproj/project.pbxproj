@@ -40,6 +40,8 @@
 		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
 		AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CE221AD901E000EB149 /* SettingsCordinator.swift */; };
 		AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* Settings.xcassets */; };
+		ADE908DE21C53D2B00B55395 /* ShowScheduleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */; };
+		ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */; };
 		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
 		ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADF142AB2187548100844794 /* cooltizbe.xcdatamodeld */; };
 		ADF142AF2187548200844794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF142AE2187548200844794 /* Assets.xcassets */; };
@@ -102,6 +104,8 @@
 		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		AD871CE221AD901E000EB149 /* SettingsCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCordinator.swift; sourceTree = "<group>"; };
 		AD871CE521AD9089000EB149 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
+		ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowScheduleButton.xib; sourceTree = "<group>"; };
+		ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScheduleButton.swift; sourceTree = "<group>"; };
 		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF142A42187548100844794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF142AC2187548100844794 /* cooltizbe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cooltizbe.xcdatamodel; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				AD3574BB21BC565C001B404B /* SearchTextView.swift */,
+				ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */,
+				ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -563,6 +569,7 @@
 			files = (
 				AD84416821C2CC5800BB0F3B /* NotificationTableViewCell.xib in Resources */,
 				AD3574D121BC6CE0001B404B /* ScheduleViewController.xib in Resources */,
+				ADE908DE21C53D2B00B55395 /* ShowScheduleButton.xib in Resources */,
 				ADF142B22187548200844794 /* LaunchScreen.storyboard in Resources */,
 				AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */,
 				AD3574CB21BC6CB7001B404B /* Schedule.xcassets in Resources */,
@@ -692,6 +699,7 @@
 				AD84416721C2CC5800BB0F3B /* NotificationTableViewCell.swift in Sources */,
 				AD84417721C4300100BB0F3B /* MainViewController.swift in Sources */,
 				AD3574BE21BC5679001B404B /* SearchViewModel.swift in Sources */,
+				ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD3574BC21BC565C001B404B /* SearchTextView.swift in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
