@@ -325,8 +325,8 @@
 			isa = PBXGroup;
 			children = (
 				AD84417321C42FCE00BB0F3B /* Main */,
-				AD3574C421BC6C66001B404B /* Schedule */,
 				AD3574B021BC55BE001B404B /* Search */,
+				AD3574C421BC6C66001B404B /* Schedule */,
 				AD871CD621AD8F08000EB149 /* Settings */,
 			);
 			path = Modules;
@@ -881,6 +881,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L32S293JKJ;
 				INFOPLIST_FILE = "$(SRCROOT)/cooltizbe/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -900,6 +901,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L32S293JKJ;
 				INFOPLIST_FILE = "$(SRCROOT)/cooltizbe/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
