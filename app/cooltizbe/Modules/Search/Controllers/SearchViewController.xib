@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="cooltizbe" customModuleProvider="target">
             <connections>
                 <outlet property="searchTextField" destination="U88-dx-cyK" id="h1H-o9-TFu"/>
+                <outlet property="tableView" destination="FYS-uq-gnU" id="WEU-sg-Eog"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

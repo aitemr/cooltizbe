@@ -5,6 +5,7 @@ class SearchViewController: UIViewController {
     // MARK: - Properties
     
     @IBOutlet private weak var searchTextField: UITextField!
+    @IBOutlet private weak var tableView: UITableView!
     
     // MARK: View LifeCycle
     
@@ -12,14 +13,26 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         
         configureTextField()
-        setNeedsStatusBarAppearanceUpdate()
+        configureTableView()
     }
     
     // MARK: - UIStatusBarStyle
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .default
-    } 
+    }
+    
+    // MARK: Configure TableView
+    
+    private func configureTableView() {
+        tableView.dataSource = self
+        tableView.delegate = self
+        
+        let searchResultNib = UINib(nibName: String(describing: SearchResultTableViewCell.self), bundle: nil)
+        tableView.register(searchResultNib,
+                           forCellReuseIdentifier: String(describing: SearchResultTableViewCell.self))
+
+    }
 
     // MARK: - Actions
     
@@ -47,10 +60,27 @@ class SearchViewController: UIViewController {
     }
     
     private func addInputAccessoryView() {
-        searchTextField.inputAccessoryView = ShowScheduleButton(frame: CGRect(x: 0,
-                                                                              y: 0,
-                                                                              width: view.frame.width,
-                                                                              height: 44))
+//        searchTextField.inputAccessoryView = ShowScheduleButton(frame: CGRect(x: 0,
+//                                                                              y: 0,
+//                                                                              width: view.frame.width,
+//                                                                              height: 44))
     }
     
+}
+
+// MARK: - UITableViewDataSource, UITableViewDelegate
+
+extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return tableView.dequeueReusableCell(withIdentifier: String(describing: SearchResultTableViewCell.self),
+                                             for: indexPath) as! SearchResultTableViewCell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
