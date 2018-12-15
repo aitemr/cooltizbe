@@ -35,7 +35,6 @@
 		AD84417721C4300100BB0F3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84417521C4300100BB0F3B /* MainViewController.swift */; };
 		AD84417821C4300100BB0F3B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84417621C4300100BB0F3B /* MainViewController.xib */; };
 		AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD321AD8770000EB149 /* SettingsViewModel.swift */; };
-		AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDD21AD8F7E000EB149 /* FooterView.swift */; };
 		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
 		AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CE221AD901E000EB149 /* SettingsCordinator.swift */; };
 		AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* Settings.xcassets */; };
@@ -100,7 +99,6 @@
 		AD84417521C4300100BB0F3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = cooltizbe/Modules/Main/Controllers/MainViewController.swift; sourceTree = SOURCE_ROOT; };
 		AD84417621C4300100BB0F3B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = cooltizbe/Modules/Main/Controllers/MainViewController.xib; sourceTree = SOURCE_ROOT; };
 		AD871CD321AD8770000EB149 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		AD871CDD21AD8F7E000EB149 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		AD871CE221AD901E000EB149 /* SettingsCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCordinator.swift; sourceTree = "<group>"; };
 		AD871CE521AD9089000EB149 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
@@ -358,7 +356,6 @@
 		AD871CD721AD8F17000EB149 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD871CDD21AD8F7E000EB149 /* FooterView.swift */,
 				AD84416021C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift */,
 				AD84416121C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.xib */,
 				AD84416521C2CC5800BB0F3B /* NotificationTableViewCell.swift */,
@@ -722,7 +719,6 @@
 				AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */,
 				AD84416E21C4154700BB0F3B /* UIColor+Colors.swift in Sources */,
 				AD3574CD21BC6CC9001B404B /* ScheduleViewModel.swift in Sources */,
-				AD871CDE21AD8F7E000EB149 /* FooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
