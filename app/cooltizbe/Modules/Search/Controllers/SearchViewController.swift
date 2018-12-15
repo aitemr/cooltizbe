@@ -82,5 +82,6 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        present(UINavigationController(rootViewController: ScheduleViewController()), animated: true, completion: nil)
     }
 }
