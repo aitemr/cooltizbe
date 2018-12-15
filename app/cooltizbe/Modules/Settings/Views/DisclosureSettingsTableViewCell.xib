@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,14 +20,14 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings_group" translatesAutoresizingMaskIntoConstraints="NO" id="1La-Q9-2sh">
-                        <rect key="frame" x="28" y="21" width="20" height="20"/>
+                        <rect key="frame" x="16" y="21" width="20" height="20"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="20" id="bwp-aP-zrk"/>
                             <constraint firstAttribute="height" constant="20" id="dCw-u9-ruJ"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My group" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHa-cv-xG1">
-                        <rect key="frame" x="66" y="21" width="61.5" height="21"/>
+                        <rect key="frame" x="54" y="21" width="61.5" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -47,7 +48,7 @@
                     <constraint firstItem="1La-Q9-2sh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="UWS-nG-IqR"/>
                     <constraint firstAttribute="bottom" secondItem="1U9-rz-YGy" secondAttribute="bottom" constant="20.5" id="Y1F-Ec-GCx"/>
                     <constraint firstItem="1U9-rz-YGy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="gIO-SM-lgp"/>
-                    <constraint firstItem="1La-Q9-2sh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="hDg-mX-ykG"/>
+                    <constraint firstItem="1La-Q9-2sh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="hDg-mX-ykG"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
