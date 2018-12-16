@@ -24,6 +24,7 @@
 		AD4AD42121C6B900006D246D /* SearchTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4AD42021C6B900006D246D /* SearchTableViewHeaderView.swift */; };
 		AD4AD42321C6B919006D246D /* SearchTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4AD42221C6B919006D246D /* SearchTableViewHeaderView.xib */; };
 		AD4AD42521C6BF70006D246D /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4AD42421C6BF70006D246D /* UIView+Nib.swift */; };
+		AD4AD42721C6D6A7006D246D /* ScheduleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4AD42621C6D6A7006D246D /* ScheduleHeaderView.xib */; };
 		AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EE00219C9B7800E99503 /* SettingsViewController.swift */; };
 		AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EE01219C9B7800E99503 /* SettingsViewController.xib */; };
 		AD84416221C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416021C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift */; };
@@ -90,6 +91,7 @@
 		AD4AD42021C6B900006D246D /* SearchTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewHeaderView.swift; sourceTree = "<group>"; };
 		AD4AD42221C6B919006D246D /* SearchTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewHeaderView.xib; sourceTree = "<group>"; };
 		AD4AD42421C6BF70006D246D /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		AD4AD42621C6D6A7006D246D /* ScheduleHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleHeaderView.xib; sourceTree = "<group>"; };
 		AD76EE00219C9B7800E99503 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AD76EE01219C9B7800E99503 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		AD84416021C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureSettingsTableViewCell.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				AD3574D421BC6D0A001B404B /* ScheduleHeaderView.swift */,
+				AD4AD42621C6D6A7006D246D /* ScheduleHeaderView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */,
 				AD3574CB21BC6CB7001B404B /* Schedule.xcassets in Resources */,
 				AD3574BA21BC560D001B404B /* SearchViewController.xib in Resources */,
+				AD4AD42721C6D6A7006D246D /* ScheduleHeaderView.xib in Resources */,
 				AD84416C21C2D05000BB0F3B /* SettingsTableViewCell.xib in Resources */,
 				AD4AD42321C6B919006D246D /* SearchTableViewHeaderView.xib in Resources */,
 				AD84417821C4300100BB0F3B /* MainViewController.xib in Resources */,
