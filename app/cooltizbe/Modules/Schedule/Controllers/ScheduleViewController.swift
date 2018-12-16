@@ -2,6 +2,10 @@ import UIKit
 
 class ScheduleViewController: UIViewController {
 
+    // MARK: - Properties
+    
+    @IBOutlet private weak var tableView: UITableView!
+    
     // MARK: Lifecycle
     
     override func viewDidLoad() {
