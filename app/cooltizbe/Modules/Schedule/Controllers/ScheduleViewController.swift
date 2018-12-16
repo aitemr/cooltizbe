@@ -31,9 +31,6 @@ class ScheduleViewController: UIViewController {
                                                     action: #selector(settingsBarButtonItemDidPress))
         
         navigationItem.rightBarButtonItems = [settingsBarButtonItem, searchBarButtonItem]
-        
-        navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.barTintColor = .mediumPurple
     }
 
     // MARK: - Configure TableView
@@ -56,7 +53,13 @@ class ScheduleViewController: UIViewController {
     
     // MARK: Configure Table View Header View
     
-    private func configureTableViewHeaderView() { }
+    private func configureTableViewHeaderView() {
+        let tableViewHeaderView = ScheduleHeaderView(frame: CGRect(x: 0,
+                                                                   y: 0,
+                                                                   width: tableView.frame.width,
+                                                                   height: 120))
+        tableView.tableHeaderView = tableViewHeaderView
+    }
     
     // MARK: - Actions
     
