@@ -2,6 +2,7 @@ import UIKit
 
 @IBDesignable
 class InsetTextField: UITextField {
+    
     @IBInspectable var insetX: CGFloat = 0
     @IBInspectable var insetY: CGFloat = 0
     
