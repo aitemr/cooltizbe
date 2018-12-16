@@ -6,7 +6,7 @@ class SearchViewController: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView!
     
-    // MARK: View LifeCycle
+    // MARK: - LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class SearchViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .mediumPurple
     }
     
-    // MARK: Configure TableView
+    // MARK: - Configure TableView
     
     private func configureTableView() {
         tableView.dataSource = self

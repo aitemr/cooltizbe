@@ -40,7 +40,7 @@ class SettingsViewController: UIViewController {
         registerTableViewCells()
     }
     
-    // MARK: - Register TableView Cells
+    // MARK: Register TableView Cells
     
     private func registerTableViewCells() {
         let notificationNib = UINib(nibName: String(describing: NotificationTableViewCell.self), bundle: nil)

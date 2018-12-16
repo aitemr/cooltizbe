@@ -12,13 +12,10 @@ class DisclosureSettingsTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     // MARK: - Private
     
-    private func configureCell() {
-        
-    }
+    private func configureCell() { }
     
 }

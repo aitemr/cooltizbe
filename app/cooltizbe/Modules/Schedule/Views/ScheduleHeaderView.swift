@@ -2,6 +2,8 @@ import UIKit
 
 class ScheduleHeaderView: UIView {
 
+    // MARK: - Initialization
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
