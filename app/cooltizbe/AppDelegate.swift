@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
-        configureStatusBar()
+        configureNavigationBar()
         
         return true
     }
@@ -83,7 +83,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                           withServices: [MSAnalytics.self, MSCrashes.self])
     }
     
-    private func configureStatusBar() {
-        UINavigationBar.appearance().barStyle = .blackOpaque
+    private func configureNavigationBar() {
+        UINavigationBar.appearance().barStyle = .black
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().barTintColor = .mediumPurple
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
     }
 }
