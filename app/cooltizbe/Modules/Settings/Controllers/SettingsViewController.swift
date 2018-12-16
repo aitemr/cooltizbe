@@ -20,7 +20,7 @@ class SettingsViewController: UIViewController {
     private func configureNavigationBar() {
         title = "Settings"
 
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "search_cross"),
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "cross"),
                                                            style: .plain,
                                                            target: self,
                                                            action: #selector(closeButtonDidPress))

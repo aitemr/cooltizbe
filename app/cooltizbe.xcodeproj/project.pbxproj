@@ -14,7 +14,7 @@
 		AD3574BA21BC560D001B404B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3574B821BC560D001B404B /* SearchViewController.xib */; };
 		AD3574BE21BC5679001B404B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BD21BC5679001B404B /* SearchViewModel.swift */; };
 		AD3574C021BC5688001B404B /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574BF21BC5688001B404B /* SearchModel.swift */; };
-		AD3574C321BC5BEE001B404B /* Search.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3574C221BC5BEE001B404B /* Search.xcassets */; };
+		AD3574C321BC5BEE001B404B /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3574C221BC5BEE001B404B /* Main.xcassets */; };
 		AD3574CB21BC6CB7001B404B /* Schedule.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3574CA21BC6CB7001B404B /* Schedule.xcassets */; };
 		AD3574CD21BC6CC9001B404B /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574CC21BC6CC9001B404B /* ScheduleViewModel.swift */; };
 		AD3574D021BC6CE0001B404B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574CE21BC6CE0001B404B /* ScheduleViewController.swift */; };
@@ -76,7 +76,7 @@
 		AD3574B821BC560D001B404B /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		AD3574BD21BC5679001B404B /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		AD3574BF21BC5688001B404B /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
-		AD3574C221BC5BEE001B404B /* Search.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Search.xcassets; sourceTree = "<group>"; };
+		AD3574C221BC5BEE001B404B /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
 		AD3574CA21BC6CB7001B404B /* Schedule.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Schedule.xcassets; sourceTree = "<group>"; };
 		AD3574CC21BC6CC9001B404B /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		AD3574CE21BC6CE0001B404B /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
@@ -177,7 +177,6 @@
 				AD3574B221BC55CD001B404B /* Views */,
 				AD3574B421BC55E1001B404B /* ViewModels */,
 				AD3574B121BC55C6001B404B /* Controllers */,
-				AD3574C121BC5BD9001B404B /* Resources */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -221,7 +220,7 @@
 		AD3574C121BC5BD9001B404B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AD3574C221BC5BEE001B404B /* Search.xcassets */,
+				AD3574C221BC5BEE001B404B /* Main.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -309,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				AD84417421C42FD600BB0F3B /* Controllers */,
+				AD3574C121BC5BD9001B404B /* Resources */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -573,7 +573,7 @@
 				AD84417821C4300100BB0F3B /* MainViewController.xib in Resources */,
 				AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */,
 				ADF142AF2187548200844794 /* Assets.xcassets in Resources */,
-				AD3574C321BC5BEE001B404B /* Search.xcassets in Resources */,
+				AD3574C321BC5BEE001B404B /* Main.xcassets in Resources */,
 				AD84416321C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

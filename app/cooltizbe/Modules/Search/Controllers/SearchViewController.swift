@@ -15,7 +15,6 @@ class SearchViewController: UIViewController {
         configureNavigationBar()
         configureTextField()
         configureTableView()
-        
     }
     
     // MARK: - Configure Navigation Bar
@@ -23,7 +22,7 @@ class SearchViewController: UIViewController {
     private func configureNavigationBar() {
         title = "Search"
 
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "search_cross"),
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "cross"),
                                                            style: .plain,
                                                            target: self,
                                                            action: #selector(closeButtonDidPress))
