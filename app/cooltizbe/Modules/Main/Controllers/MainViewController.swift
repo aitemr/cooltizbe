@@ -7,17 +7,11 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    // MARK: - UIStatusBarStyle
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
     
     // MARK: - Actions
     
     @IBAction func searchButtonDidPress(_ sender: UIButton) {
-        present(SearchViewController(), animated: true, completion: nil)
+        present(UINavigationController(rootViewController: SearchViewController()), animated: true, completion: nil)
     }
     
 }
