@@ -4,7 +4,6 @@ class SearchViewController: UIViewController {
 
     // MARK: - Properties
     
-    @IBOutlet private weak var searchTextField: UITextField!
     @IBOutlet private weak var tableView: UITableView!
     
     // MARK: View LifeCycle
@@ -39,6 +38,16 @@ class SearchViewController: UIViewController {
         let searchResultNib = UINib(nibName: String(describing: SearchResultTableViewCell.self), bundle: nil)
         tableView.register(searchResultNib,
                            forCellReuseIdentifier: String(describing: SearchResultTableViewCell.self))
+
+        configureTableViewHeaderView()
+    }
+    
+    private func configureTableViewHeaderView() {
+        tableView.tableHeaderView =
+            SearchTableViewHeaderView(frame: CGRect(x: 0,
+                                                    y: 0,
+                                                    width: tableView.frame.width,
+                                                    height: 50))
     }
     
     // MARK: - Actions
@@ -53,12 +62,8 @@ class SearchViewController: UIViewController {
 
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -69,10 +74,6 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         present(UINavigationController(rootViewController: ScheduleViewController()), animated: true, completion: nil)
-    }
-    
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "1 course"
     }
     
 }

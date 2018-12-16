@@ -12,7 +12,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="cooltizbe" customModuleProvider="target">
             <connections>
-                <outlet property="searchTextField" destination="U88-dx-cyK" id="h1H-o9-TFu"/>
                 <outlet property="tableView" destination="FYS-uq-gnU" id="WEU-sg-Eog"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -22,47 +21,17 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter your group number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="U88-dx-cyK" customClass="InsetTextField" customModule="cooltizbe" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="44" width="375" height="50"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="50" id="R8Z-60-sP2"/>
-                    </constraints>
-                    <nil key="textColor"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="insetX">
-                            <real key="value" value="16"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="number" keyPath="insetY">
-                            <real key="value" value="0.0"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </textField>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zob-9k-cf6">
-                    <rect key="frame" x="0.0" y="95" width="375" height="0.6666666666666714"/>
-                    <color key="backgroundColor" red="0.84313725490196079" green="0.84313725490196079" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="0.66666666666666663" id="yYC-8E-DFY"/>
-                    </constraints>
-                </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="FYS-uq-gnU">
-                    <rect key="frame" x="0.0" y="95.666666666666686" width="375" height="682.33333333333326"/>
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="FYS-uq-gnU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4py-Ce-uF8"/>
-                <constraint firstAttribute="trailing" secondItem="Zob-9k-cf6" secondAttribute="trailing" id="6yW-2E-rzI"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FYS-uq-gnU" secondAttribute="trailing" id="AVI-pD-p4B"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="FYS-uq-gnU" secondAttribute="bottom" id="LDL-iK-lIm"/>
-                <constraint firstItem="FYS-uq-gnU" firstAttribute="top" secondItem="Zob-9k-cf6" secondAttribute="bottom" id="d2R-wq-Gse"/>
-                <constraint firstItem="U88-dx-cyK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fmZ-vw-3sP"/>
-                <constraint firstItem="U88-dx-cyK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="fvM-ER-noL"/>
-                <constraint firstItem="Zob-9k-cf6" firstAttribute="top" secondItem="U88-dx-cyK" secondAttribute="bottom" constant="1" id="ibJ-1d-T1c"/>
-                <constraint firstItem="Zob-9k-cf6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jtR-rJ-9Cm"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="U88-dx-cyK" secondAttribute="trailing" id="zq8-Rm-W5Z"/>
+                <constraint firstItem="FYS-uq-gnU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="R9j-Av-bAj"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="136.875" y="150"/>
