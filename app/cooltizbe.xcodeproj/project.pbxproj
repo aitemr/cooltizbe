@@ -36,6 +36,7 @@
 		AD871CE021AD8F87000EB149 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CDF21AD8F87000EB149 /* Settings.swift */; };
 		AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CE221AD901E000EB149 /* SettingsCordinator.swift */; };
 		AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* Settings.xcassets */; };
+		ADAA754521C68C8F00F7E064 /* UITextField+Inset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */; };
 		ADE908DE21C53D2B00B55395 /* ShowScheduleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */; };
 		ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */; };
 		ADE908E321C543F700B55395 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE908E121C543F700B55395 /* SearchResultTableViewCell.swift */; };
@@ -98,6 +99,7 @@
 		AD871CDF21AD8F87000EB149 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		AD871CE221AD901E000EB149 /* SettingsCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCordinator.swift; sourceTree = "<group>"; };
 		AD871CE521AD9089000EB149 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
+		ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Inset.swift"; sourceTree = "<group>"; };
 		ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowScheduleButton.xib; sourceTree = "<group>"; };
 		ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScheduleButton.swift; sourceTree = "<group>"; };
 		ADE908E121C543F700B55395 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */,
+				ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
+				ADAA754521C68C8F00F7E064 /* UITextField+Inset.swift in Sources */,
 				AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */,
 				AD3574D521BC6D0A001B404B /* ScheduleHeaderView.swift in Sources */,
 				AD3574C021BC5688001B404B /* SearchModel.swift in Sources */,

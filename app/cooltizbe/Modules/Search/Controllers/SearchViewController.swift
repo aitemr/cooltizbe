@@ -13,7 +13,6 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         
         configureNavigationBar()
-        configureTextField()
         configureTableView()
     }
     
@@ -40,25 +39,6 @@ class SearchViewController: UIViewController {
         let searchResultNib = UINib(nibName: String(describing: SearchResultTableViewCell.self), bundle: nil)
         tableView.register(searchResultNib,
                            forCellReuseIdentifier: String(describing: SearchResultTableViewCell.self))
-
-    }
-    
-    // MARK: - Configure TextField
-    
-    private func configureTextField() {
-        let border = CALayer()
-        let width = CGFloat(1.0)
-        border.borderColor = #colorLiteral(red: 0.8431372549, green: 0.8431372549, blue: 0.8431372549, alpha: 1)
-        border.frame = CGRect(x: 0,
-                              y: searchTextField.frame.size.height - width,
-                              width: searchTextField.frame.size.width,
-                              height: searchTextField.frame.size.height)
-        
-        border.borderWidth = width
-        searchTextField.layer.addSublayer(border)
-        searchTextField.layer.sublayerTransform = CATransform3DMakeTranslation(16, 0, 0)
-        searchTextField.layer.masksToBounds = true
-        
     }
     
     // MARK: - Actions
