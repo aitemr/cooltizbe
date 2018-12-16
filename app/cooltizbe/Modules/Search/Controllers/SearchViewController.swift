@@ -12,14 +12,24 @@ class SearchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureNavigationBar()
         configureTextField()
         configureTableView()
+        
     }
     
-    // MARK: - UIStatusBarStyle
+    // MARK: - Configure Navigation Bar
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
+    private func configureNavigationBar() {
+        title = "Search"
+        navigationController?.navigationBar.titleTextAttributes =
+            [NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
+
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "search_cross"),
+                                                           style: .plain,
+                                                           target: self,
+                                                           action: #selector(closeButtonDidPress))
     }
     
     // MARK: Configure TableView
@@ -32,12 +42,6 @@ class SearchViewController: UIViewController {
         tableView.register(searchResultNib,
                            forCellReuseIdentifier: String(describing: SearchResultTableViewCell.self))
 
-    }
-
-    // MARK: - Actions
-    
-    @IBAction func closeButtonDidPress(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
     }
     
     // MARK: - Configure TextField
@@ -56,14 +60,12 @@ class SearchViewController: UIViewController {
         searchTextField.layer.sublayerTransform = CATransform3DMakeTranslation(16, 0, 0)
         searchTextField.layer.masksToBounds = true
         
-        addInputAccessoryView()
     }
     
-    private func addInputAccessoryView() {
-//        searchTextField.inputAccessoryView = ShowScheduleButton(frame: CGRect(x: 0,
-//                                                                              y: 0,
-//                                                                              width: view.frame.width,
-//                                                                              height: 44))
+    // MARK: - Actions
+    
+    @objc private func closeButtonDidPress() {
+        dismiss(animated: true, completion: nil)
     }
     
 }
