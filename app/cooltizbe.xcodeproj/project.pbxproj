@@ -30,8 +30,6 @@
 		AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */; };
 		AD84416C21C2D05000BB0F3B /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */; };
 		AD84416E21C4154700BB0F3B /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */; };
-		AD84417021C4160F00BB0F3B /* CAGradientLayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416F21C4160F00BB0F3B /* CAGradientLayer+Extensions.swift */; };
-		AD84417221C416FA00BB0F3B /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84417121C416FA00BB0F3B /* UINavigationBar+Extensions.swift */; };
 		AD84417721C4300100BB0F3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84417521C4300100BB0F3B /* MainViewController.swift */; };
 		AD84417821C4300100BB0F3B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD84417621C4300100BB0F3B /* MainViewController.xib */; };
 		AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CD321AD8770000EB149 /* SettingsViewModel.swift */; };
@@ -94,8 +92,6 @@
 		AD84416921C2D05000BB0F3B /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		AD84416A21C2D05000BB0F3B /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
 		AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
-		AD84416F21C4160F00BB0F3B /* CAGradientLayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extensions.swift"; sourceTree = "<group>"; };
-		AD84417121C416FA00BB0F3B /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
 		AD84417521C4300100BB0F3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = cooltizbe/Modules/Main/Controllers/MainViewController.swift; sourceTree = SOURCE_ROOT; };
 		AD84417621C4300100BB0F3B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = cooltizbe/Modules/Main/Controllers/MainViewController.xib; sourceTree = SOURCE_ROOT; };
 		AD871CD321AD8770000EB149 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -287,8 +283,6 @@
 			isa = PBXGroup;
 			children = (
 				AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */,
-				AD84416F21C4160F00BB0F3B /* CAGradientLayer+Extensions.swift */,
-				AD84417121C416FA00BB0F3B /* UINavigationBar+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -704,7 +698,6 @@
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
 				AD84416B21C2D05000BB0F3B /* SettingsTableViewCell.swift in Sources */,
-				AD84417021C4160F00BB0F3B /* CAGradientLayer+Extensions.swift in Sources */,
 				AD3574D521BC6D0A001B404B /* ScheduleHeaderView.swift in Sources */,
 				AD3574C021BC5688001B404B /* SearchModel.swift in Sources */,
 				AD871CE021AD8F87000EB149 /* Settings.swift in Sources */,
@@ -713,7 +706,6 @@
 				AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */,
 				AD84416221C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift in Sources */,
 				AD3574B921BC560D001B404B /* SearchViewController.swift in Sources */,
-				AD84417221C416FA00BB0F3B /* UINavigationBar+Extensions.swift in Sources */,
 				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
 				AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */,
 				AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */,
