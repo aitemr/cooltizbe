@@ -6,15 +6,16 @@ class ScheduleViewController: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView!
     
-    // MARK: Lifecycle
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         configureNavigationBar()
+        configureTableView()
     }
     
-    // MARK: Configure Navigation Bar
+    // MARK: - Configure Navigation Bar
     
     private func configureNavigationBar() {
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "CSSE-145K", style: .plain, target: self, action: nil)
@@ -35,7 +36,29 @@ class ScheduleViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .mediumPurple
     }
 
-    // MARK: Actions
+    // MARK: - Configure TableView
+    
+    private func configureTableView() {
+        tableView.dataSource = self
+        tableView.delegate = self
+        
+        registerTableViewCells()
+        configureTableViewHeaderView()
+    }
+    
+    // MARK: Register Table View Cells
+    
+    private func registerTableViewCells() {
+        let scheduleCell = UINib(nibName: String(describing: ScheduleTableViewCell.self), bundle: nil)
+        tableView.register(scheduleCell,
+                           forCellReuseIdentifier: String(describing: ScheduleTableViewCell.self))
+    }
+    
+    // MARK: Configure Table View Header View
+    
+    private func configureTableViewHeaderView() { }
+    
+    // MARK: - Actions
     
     @objc private func searchBarButtonItemDidPress() {
         present(UINavigationController(rootViewController: SearchViewController()), animated: true, completion: nil)
@@ -43,6 +66,25 @@ class ScheduleViewController: UIViewController {
     
     @objc private func settingsBarButtonItemDidPress() {
         present(UINavigationController(rootViewController: SettingsViewController()), animated: true, completion: nil)
+    }
+    
+}
+
+// MARK: - UITableViewDataSource, UITableViewDelegate
+
+extension ScheduleViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return tableView.dequeueReusableCell(withIdentifier: String(describing: ScheduleTableViewCell.self),
+                                             for: indexPath) as! ScheduleTableViewCell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
 }
