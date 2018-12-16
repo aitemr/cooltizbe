@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchTableViewHeaderView" customModule="cooltizbe" customModuleProvider="target">
+            <connections>
+                <outlet property="searchTextField" destination="Ft6-Xu-xgo" id="jEP-p0-aWf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="t5j-fz-GH6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter your group number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ft6-Xu-xgo" customClass="InsetTextField" customModule="cooltizbe" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="kL0-d1-hJR"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="insetX">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="insetY">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S7I-Ib-rfg">
+                    <rect key="frame" x="0.0" y="49" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.48503786329999998" green="0.30780389899999999" blue="0.89024996759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="IjA-IX-MDN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="S7I-Ib-rfg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5pM-JL-m82"/>
+                <constraint firstAttribute="trailing" secondItem="S7I-Ib-rfg" secondAttribute="trailing" id="7Js-Si-nwX"/>
+                <constraint firstItem="Ft6-Xu-xgo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Aok-0a-m5a"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ft6-Xu-xgo" secondAttribute="bottom" constant="1" id="GHO-RX-bq0"/>
+                <constraint firstItem="Ft6-Xu-xgo" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="U4I-Py-GJT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="S7I-Ib-rfg" secondAttribute="bottom" id="bIK-CK-xXT"/>
+                <constraint firstItem="Ft6-Xu-xgo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zUU-iw-QCF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="85.599999999999994" y="-201.94902548725639"/>
+        </view>
+    </objects>
+</document>
