@@ -27,7 +27,7 @@ class SearchViewController: UIViewController {
                                                            action: #selector(closeButtonDidPress))
 
         navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
+        navigationController?.navigationBar.barTintColor = .mediumPurple
     }
     
     // MARK: Configure TableView

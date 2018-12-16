@@ -28,7 +28,7 @@ class ScheduleViewController: UIViewController {
         navigationItem.rightBarButtonItems = [settingsBarButtonItem, searchBarButtonItem]
         
         navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
+        navigationController?.navigationBar.barTintColor = .mediumPurple
     }
 
     // MARK: Actions
