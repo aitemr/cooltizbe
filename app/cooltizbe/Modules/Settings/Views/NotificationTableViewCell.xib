@@ -28,6 +28,7 @@
                     </imageView>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pu8-v3-HcW">
                         <rect key="frame" x="255" y="15" width="51" height="31"/>
+                        <color key="onTintColor" red="0.40392156862745099" green="0.29019607843137252" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </switch>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable notifacation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzW-vF-E2Y">
                         <rect key="frame" x="54" y="23" width="124" height="17"/>
