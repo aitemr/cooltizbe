@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
+        configureStatusBar()
         
         return true
     }
@@ -80,5 +81,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func configureAppCenter() {
         MSAppCenter.start("69c4bc53-6ad1-47e1-93db-3e07d04ffcd6",
                           withServices: [MSAnalytics.self, MSCrashes.self])
+    }
+    
+    private func configureStatusBar() {
+        UINavigationBar.appearance().barStyle = .blackOpaque
     }
 }
