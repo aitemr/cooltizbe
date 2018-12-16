@@ -4,7 +4,6 @@ class SearchTableViewHeaderView: UIView {
 
     // MARK: - Properties
     
-    @IBOutlet private var view: UIView!
     @IBOutlet private weak var searchTextField: InsetTextField!
     
     // MARK: - Initialization

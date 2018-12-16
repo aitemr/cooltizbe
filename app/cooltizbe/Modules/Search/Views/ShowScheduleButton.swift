@@ -2,10 +2,6 @@ import UIKit
 
 class ShowScheduleButton: UIView {
     
-    // MARK: Properties
-
-    @IBOutlet private var view: UIView!
-    
     // MARK: - Initialization
     
     override init(frame: CGRect) {
