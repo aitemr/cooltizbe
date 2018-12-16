@@ -21,38 +21,17 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiT-Bb-fUD">
-                    <rect key="frame" x="0.0" y="20" width="50" height="50"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="50" id="1um-V3-JUH"/>
-                        <constraint firstAttribute="height" constant="50" id="Py2-mQ-DLa"/>
-                    </constraints>
-                    <state key="normal" image="search_cross"/>
-                    <connections>
-                        <action selector="closeButtonDidPress:" destination="-1" eventType="touchUpInside" id="PUQ-fS-HyP"/>
-                    </connections>
-                </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SETTINGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGH-jX-uVj">
-                    <rect key="frame" x="166.66666666666666" y="35" width="81" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Thb-hP-i6a">
-                    <rect key="frame" x="0.0" y="70" width="414" height="666"/>
+                    <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="lGH-jX-uVj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="4md-XR-MaB"/>
-                <constraint firstItem="Thb-hP-i6a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Hdy-S2-qZu"/>
-                <constraint firstItem="Thb-hP-i6a" firstAttribute="top" secondItem="AiT-Bb-fUD" secondAttribute="bottom" id="Ikm-fX-u6L"/>
-                <constraint firstItem="Thb-hP-i6a" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="SMv-6H-xMf"/>
-                <constraint firstItem="AiT-Bb-fUD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cFB-24-yvc"/>
-                <constraint firstAttribute="bottom" secondItem="Thb-hP-i6a" secondAttribute="bottom" id="d1D-IB-jsz"/>
-                <constraint firstItem="lGH-jX-uVj" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="mRX-CP-AWl"/>
-                <constraint firstItem="AiT-Bb-fUD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="xl5-Vg-go1"/>
+                <constraint firstItem="Thb-hP-i6a" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="3bd-EH-y7N"/>
+                <constraint firstItem="Thb-hP-i6a" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="5AN-jr-XRv"/>
+                <constraint firstItem="Thb-hP-i6a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="N0F-0x-0l8"/>
+                <constraint firstItem="Thb-hP-i6a" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="ZQ9-xs-CKa"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="151.63043478260872"/>
@@ -66,7 +45,4 @@
             </tableViewCellContentView>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="search_cross" width="19" height="19"/>
-    </resources>
 </document>

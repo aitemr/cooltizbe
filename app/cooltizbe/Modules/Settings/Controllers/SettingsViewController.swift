@@ -11,14 +11,8 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        configureNavigationBar()
+        configureNavigationBar()
         configureTableView()
-    }
-    
-    // MARK: - UIStatusBarStyle
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
     }
     
     // MARK: - Configure Navigation Bar
@@ -27,8 +21,12 @@ class SettingsViewController: UIViewController {
         title = "Settings"
         navigationController?.navigationBar.titleTextAttributes =
             [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationController?.navigationBar.setGradientBackground(colors: [.gradientPrimaryColor,
-                                                                           .gradientSecondaryColor])
+        navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "search_cross"),
+                                                           style: .plain,
+                                                           target: self,
+                                                           action: #selector(closeButtonDidPress))
     }
     
     // MARK: - Configure Table View
@@ -56,13 +54,12 @@ class SettingsViewController: UIViewController {
         tableView.register(settingsNib,
                            forCellReuseIdentifier: String(describing: SettingsTableViewCell.self))
     }
-    
+
     // MARK: - Actions
     
-    @IBAction func closeButtonDidPress(_ sender: UIButton) {
+    @objc private func closeButtonDidPress() {
         dismiss(animated: true, completion: nil)
     }
-    
 }
 
 // MARK: - UITableViewDataSource, UITableViewDelegate
