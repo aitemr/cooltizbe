@@ -12,24 +12,12 @@ class SearchTableViewHeaderView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        configureViews()
+        loadFromNib()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        configureViews()
+        loadFromNib()
     }
-    
-    // MARK: Configure Views
-    
-    private func configureViews() {
-        let bundle = Bundle(for: classForCoder)
-        let className = String(describing: SearchTableViewHeaderView.self)
-        bundle.loadNibNamed(className, owner: self, options: nil)
-        
-        view.frame = bounds
-        addSubview(view)
-    }
-    
 }

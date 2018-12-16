@@ -23,6 +23,7 @@
 		AD3574D521BC6D0A001B404B /* ScheduleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3574D421BC6D0A001B404B /* ScheduleHeaderView.swift */; };
 		AD4AD42121C6B900006D246D /* SearchTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4AD42021C6B900006D246D /* SearchTableViewHeaderView.swift */; };
 		AD4AD42321C6B919006D246D /* SearchTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4AD42221C6B919006D246D /* SearchTableViewHeaderView.xib */; };
+		AD4AD42521C6BF70006D246D /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4AD42421C6BF70006D246D /* UIView+Nib.swift */; };
 		AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76EE00219C9B7800E99503 /* SettingsViewController.swift */; };
 		AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD76EE01219C9B7800E99503 /* SettingsViewController.xib */; };
 		AD84416221C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84416021C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift */; };
@@ -88,6 +89,7 @@
 		AD3574D421BC6D0A001B404B /* ScheduleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleHeaderView.swift; sourceTree = "<group>"; };
 		AD4AD42021C6B900006D246D /* SearchTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewHeaderView.swift; sourceTree = "<group>"; };
 		AD4AD42221C6B919006D246D /* SearchTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewHeaderView.xib; sourceTree = "<group>"; };
+		AD4AD42421C6BF70006D246D /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		AD76EE00219C9B7800E99503 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AD76EE01219C9B7800E99503 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		AD84416021C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureSettingsTableViewCell.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 			children = (
 				AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */,
 				ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */,
+				AD4AD42421C6BF70006D246D /* UIView+Nib.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -715,6 +718,7 @@
 				AD3574D021BC6CE0001B404B /* ScheduleViewController.swift in Sources */,
 				ADE908E321C543F700B55395 /* SearchResultTableViewCell.swift in Sources */,
 				AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */,
+				AD4AD42521C6BF70006D246D /* UIView+Nib.swift in Sources */,
 				AD84416221C2C3EB00BB0F3B /* DisclosureSettingsTableViewCell.swift in Sources */,
 				AD3574B921BC560D001B404B /* SearchViewController.swift in Sources */,
 				ADF142A52187548100844794 /* AppDelegate.swift in Sources */,
