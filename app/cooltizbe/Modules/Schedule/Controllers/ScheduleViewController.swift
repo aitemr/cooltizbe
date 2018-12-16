@@ -13,9 +13,6 @@ class ScheduleViewController: UIViewController {
     // MARK: Configure Navigation Bar
     
     private func configureNavigationBar() {
-//        navigationController?.navigationBar.titleTextAttributes =
-//            [NSAttributedString.Key.foregroundColor: UIColor.red]
-        
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "CSSE-145K", style: .plain, target: self, action: nil)
         
         let searchBarButtonItem = UIBarButtonItem(image: UIImage(named: "schedule_search"),
@@ -30,6 +27,7 @@ class ScheduleViewController: UIViewController {
         
         navigationItem.rightBarButtonItems = [settingsBarButtonItem, searchBarButtonItem]
         
+        navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
     }
 

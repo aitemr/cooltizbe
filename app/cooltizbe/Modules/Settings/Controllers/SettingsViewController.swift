@@ -19,14 +19,14 @@ class SettingsViewController: UIViewController {
     
     private func configureNavigationBar() {
         title = "Settings"
-        navigationController?.navigationBar.titleTextAttributes =
-            [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
-        
+
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "search_cross"),
                                                            style: .plain,
                                                            target: self,
                                                            action: #selector(closeButtonDidPress))
+
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.barTintColor = .gradientSecondaryColor
     }
     
     // MARK: - Configure Table View
