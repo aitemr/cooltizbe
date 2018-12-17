@@ -47,7 +47,7 @@ class ScheduleViewController: UIViewController {
         configureDZNEmptyDataSet()
     }
     
-    // MARK: Register Table View Cells
+    // MARK: Register TableView Cells
     
     private func registerTableViewCells() {
         let scheduleCell = UINib(nibName: String(describing: ScheduleTableViewCell.self), bundle: nil)
@@ -55,7 +55,7 @@ class ScheduleViewController: UIViewController {
                            forCellReuseIdentifier: String(describing: ScheduleTableViewCell.self))
     }
     
-    // MARK: Configure Table View Header View
+    // MARK: Configure TableView Header View
     
     private func configureTableViewHeaderView() {
         let tableViewHeaderView = ScheduleHeaderView(frame: CGRect(x: 0,
@@ -65,13 +65,13 @@ class ScheduleViewController: UIViewController {
         tableView.tableHeaderView = tableViewHeaderView
     }
     
-    // MARK: Configure Table View Footer View
+    // MARK: Configure TableView Footer View
     
     private func configureTableViewFooterView() {
         tableView.tableFooterView = UIView(frame: .zero)
     }
     
-    // MARK: - Configure DZNEmptyDataSet
+    // MARK: Configure DZNEmptyDataSet
     
     private func configureDZNEmptyDataSet() {
         tableView.emptyDataSetSource = self
