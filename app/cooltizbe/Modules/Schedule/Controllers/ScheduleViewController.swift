@@ -1,4 +1,5 @@
 import UIKit
+import DZNEmptyDataSet
 
 class ScheduleViewController: UIViewController {
 
@@ -42,6 +43,8 @@ class ScheduleViewController: UIViewController {
         
         registerTableViewCells()
         configureTableViewHeaderView()
+        configureTableViewFooterView()
+        configureDZNEmptyDataSet()
     }
     
     // MARK: Register Table View Cells
@@ -62,6 +65,18 @@ class ScheduleViewController: UIViewController {
         tableView.tableHeaderView = tableViewHeaderView
     }
     
+    // MARK: Configure Table View Footer View
+    
+    private func configureTableViewFooterView() {
+        tableView.tableFooterView = UIView(frame: .zero)
+    }
+    
+    // MARK: - Configure DZNEmptyDataSet
+    
+    private func configureDZNEmptyDataSet() {
+        tableView.emptyDataSetSource = self
+    }
+    
     // MARK: - Actions
     
     @objc private func searchBarButtonItemDidPress() {
@@ -79,7 +94,7 @@ class ScheduleViewController: UIViewController {
 extension ScheduleViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -87,4 +102,19 @@ extension ScheduleViewController: UITableViewDataSource {
                                              for: indexPath) as! ScheduleTableViewCell
     }
     
+}
+
+// MARK: - DZNEmptyDataSetSource
+
+extension ScheduleViewController: DZNEmptyDataSetSource {
+    
+    func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        tableView.backgroundColor = .white
+        return NSAttributedString(string: "🎉", attributes: nil)
+    }
+    
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        return NSAttributedString(string: "You don't have any classes!",
+                                  attributes: [NSAttributedString.Key.foregroundColor: UIColor.mediumPurple])
+    }
 }
