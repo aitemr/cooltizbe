@@ -37,7 +37,8 @@ class ScheduleViewController: UIViewController {
     
     private func configureTableView() {
         tableView.dataSource = self
-        tableView.delegate = self
+        
+        tableView.allowsSelection = false
         
         registerTableViewCells()
         configureTableViewHeaderView()
@@ -73,9 +74,9 @@ class ScheduleViewController: UIViewController {
     
 }
 
-// MARK: - UITableViewDataSource, UITableViewDelegate
+// MARK: - UITableViewDataSource
 
-extension ScheduleViewController: UITableViewDataSource, UITableViewDelegate {
+extension ScheduleViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
@@ -84,10 +85,6 @@ extension ScheduleViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         return tableView.dequeueReusableCell(withIdentifier: String(describing: ScheduleTableViewCell.self),
                                              for: indexPath) as! ScheduleTableViewCell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
     }
     
 }
