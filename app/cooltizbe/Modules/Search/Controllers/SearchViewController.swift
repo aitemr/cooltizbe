@@ -1,4 +1,5 @@
 import UIKit
+import DZNEmptyDataSet
 
 class SearchViewController: UIViewController {
 
@@ -6,7 +7,7 @@ class SearchViewController: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView!
     
-    // MARK: - LifeCycle
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,12 +33,24 @@ class SearchViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        let searchResultNib = UINib(nibName: String(describing: SearchResultTableViewCell.self), bundle: nil)
-        tableView.register(searchResultNib,
-                           forCellReuseIdentifier: String(describing: SearchResultTableViewCell.self))
-
+        tableView.backgroundColor = .white
+        
+        registerTableViewCells()
         configureTableViewHeaderView()
+        configureTableViewFooterView()
+        configureDZNEmptyDataSet()
     }
+    
+    // MARK: Register TableView Cells
+    
+    private func registerTableViewCells() {
+        let nibName = String(describing: SearchResultTableViewCell.self)
+        let searchResultNib = UINib(nibName: nibName, bundle: nil)
+        tableView.register(searchResultNib,
+                           forCellReuseIdentifier: nibName)
+    }
+    
+    // MARK: Configure TableView Header View
     
     private func configureTableViewHeaderView() {
         tableView.tableHeaderView =
@@ -45,6 +58,18 @@ class SearchViewController: UIViewController {
                                                     y: 0,
                                                     width: tableView.frame.width,
                                                     height: 50))
+    }
+    
+    // MARK: Configure TableView Footer View
+    
+    private func configureTableViewFooterView() {
+        tableView.tableFooterView = UIView(frame: .zero)
+    }
+    
+    // MARK: Configure DZNEmptyDataSet
+    
+    private func configureDZNEmptyDataSet() {
+        tableView.emptyDataSetSource = self
     }
     
     // MARK: - Actions
@@ -60,7 +85,7 @@ class SearchViewController: UIViewController {
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -73,4 +98,18 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
         present(UINavigationController(rootViewController: ScheduleViewController()), animated: true, completion: nil)
     }
     
+}
+
+// MARK: - DZNEmptyDataSetSource
+
+extension SearchViewController: DZNEmptyDataSetSource {
+    
+    func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        return NSAttributedString(string: "😭", attributes: nil)
+    }
+    
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        return NSAttributedString(string: "Sorry, not found. Try again!",
+                                  attributes: [NSAttributedString.Key.foregroundColor: UIColor.mediumPurple])
+    }
 }
