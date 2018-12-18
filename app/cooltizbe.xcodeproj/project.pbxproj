@@ -43,8 +43,7 @@
 		AD871CE321AD901E000EB149 /* SettingsCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD871CE221AD901E000EB149 /* SettingsCordinator.swift */; };
 		AD871CE621AD9089000EB149 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD871CE521AD9089000EB149 /* Settings.xcassets */; };
 		ADAA754521C68C8F00F7E064 /* UITextField+Inset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */; };
-		ADE908DE21C53D2B00B55395 /* ShowScheduleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */; };
-		ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */; };
+		ADE6E9A421C8CFA100D7857F /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6E9A321C8CFA100D7857F /* SearchService.swift */; };
 		ADE908E321C543F700B55395 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE908E121C543F700B55395 /* SearchResultTableViewCell.swift */; };
 		ADE908E421C543F700B55395 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE908E221C543F700B55395 /* SearchResultTableViewCell.xib */; };
 		ADF142A52187548100844794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF142A42187548100844794 /* AppDelegate.swift */; };
@@ -112,8 +111,7 @@
 		AD871CE221AD901E000EB149 /* SettingsCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCordinator.swift; sourceTree = "<group>"; };
 		AD871CE521AD9089000EB149 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
 		ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Inset.swift"; sourceTree = "<group>"; };
-		ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowScheduleButton.xib; sourceTree = "<group>"; };
-		ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScheduleButton.swift; sourceTree = "<group>"; };
+		ADE6E9A321C8CFA100D7857F /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		ADE908E121C543F700B55395 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
 		ADE908E221C543F700B55395 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
 		ADF142A12187548100844794 /* cooltizbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooltizbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +188,7 @@
 				AD3574B321BC55DC001B404B /* Models */,
 				AD3574B221BC55CD001B404B /* Views */,
 				AD3574B421BC55E1001B404B /* ViewModels */,
+				ADE6E9A221C8CF8300D7857F /* Services */,
 				AD3574B121BC55C6001B404B /* Controllers */,
 			);
 			path = Search;
@@ -207,8 +206,6 @@
 		AD3574B221BC55CD001B404B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ADE908DD21C53D2B00B55395 /* ShowScheduleButton.xib */,
-				ADE908DF21C53E2D00B55395 /* ShowScheduleButton.swift */,
 				ADE908E121C543F700B55395 /* SearchResultTableViewCell.swift */,
 				ADE908E221C543F700B55395 /* SearchResultTableViewCell.xib */,
 				AD4AD42021C6B900006D246D /* SearchTableViewHeaderView.swift */,
@@ -422,6 +419,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		ADE6E9A221C8CF8300D7857F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6E9A321C8CFA100D7857F /* SearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		ADF142982187548000844794 = {
 			isa = PBXGroup;
 			children = (
@@ -584,7 +589,6 @@
 			files = (
 				AD84416821C2CC5800BB0F3B /* NotificationTableViewCell.xib in Resources */,
 				AD3574D121BC6CE0001B404B /* ScheduleViewController.xib in Resources */,
-				ADE908DE21C53D2B00B55395 /* ShowScheduleButton.xib in Resources */,
 				ADF142B22187548200844794 /* LaunchScreen.storyboard in Resources */,
 				ADE908E421C543F700B55395 /* SearchResultTableViewCell.xib in Resources */,
 				AD76EE03219C9B7800E99503 /* SettingsViewController.xib in Resources */,
@@ -627,6 +631,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-cooltizbe/Pods-cooltizbe-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -635,6 +640,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -722,7 +728,6 @@
 				AD84416721C2CC5800BB0F3B /* NotificationTableViewCell.swift in Sources */,
 				AD84417721C4300100BB0F3B /* MainViewController.swift in Sources */,
 				AD3574BE21BC5679001B404B /* SearchViewModel.swift in Sources */,
-				ADE908E021C53E2D00B55395 /* ShowScheduleButton.swift in Sources */,
 				ADF142AD2187548100844794 /* cooltizbe.xcdatamodeld in Sources */,
 				AD3574D321BC6CF4001B404B /* Schedule.swift in Sources */,
 				ADAA754521C68C8F00F7E064 /* UITextField+Inset.swift in Sources */,
@@ -741,6 +746,7 @@
 				AD4AD42121C6B900006D246D /* SearchTableViewHeaderView.swift in Sources */,
 				AD76EE02219C9B7800E99503 /* SettingsViewController.swift in Sources */,
 				AD871CD421AD8770000EB149 /* SettingsViewModel.swift in Sources */,
+				ADE6E9A421C8CFA100D7857F /* SearchService.swift in Sources */,
 				AD84416E21C4154700BB0F3B /* UIColor+Colors.swift in Sources */,
 				AD3574CD21BC6CC9001B404B /* ScheduleViewModel.swift in Sources */,
 			);
