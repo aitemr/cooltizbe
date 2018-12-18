@@ -20,7 +20,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter your group number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ft6-Xu-xgo" customClass="InsetTextField" customModule="cooltizbe" customModuleProvider="target">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter group, room, teacher name" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ft6-Xu-xgo" customClass="InsetTextField" customModule="cooltizbe" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="49" id="kL0-d1-hJR"/>

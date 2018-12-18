@@ -137,7 +137,7 @@ extension SearchViewController: DZNEmptyDataSetSource {
     }
     
     func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
-        return NSAttributedString(string: "Enter group, room, teacher",
+        return NSAttributedString(string: "Enter group, room, teacher name",
                                   attributes: [NSAttributedString.Key.foregroundColor: UIColor.mediumPurple])
     }
 }
