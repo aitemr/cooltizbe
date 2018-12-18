@@ -1,13 +1,12 @@
 import UIKit
 
-struct Search: Decodable {
+struct Search: Codable {
     let id: String
     let type: String
     let nameEn: String
     
     private enum CodingKeys: String, CodingKey {
-        case id
-        case type
+        case id, type
         case nameEn = "name_en"
     }
 }
