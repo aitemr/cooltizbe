@@ -10,7 +10,7 @@ class SearchTableViewHeaderView: UIView {
     
     @IBOutlet private weak var searchTextField: InsetTextField!
     
-    private weak var delegate: SearchTableViewHeaderViewDelegate!
+    private weak var delegate: SearchTableViewHeaderViewDelegate?
     
     // MARK: - Initialization
     
@@ -33,6 +33,6 @@ class SearchTableViewHeaderView: UIView {
             return
         }
         
-        delegate.textFieldValueChanged(on: self, text: text)
+        delegate?.textFieldValueChanged(on: self, text: text)
     }
 }
