@@ -10,7 +10,7 @@ class SearchTableViewHeaderView: UIView {
     
     @IBOutlet private weak var searchTextField: InsetTextField!
     
-    private weak var delegate: SearchTableViewHeaderViewDelegate?
+    weak var delegate: SearchTableViewHeaderViewDelegate?
     
     // MARK: - Initialization
     
