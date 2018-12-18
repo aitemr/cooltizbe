@@ -25,10 +25,10 @@ class SearchTableViewHeaderView: UIView {
         
         loadFromNib()
     }
-    
+
     // MARK: - Actions
-    
-    @IBAction func textFieldValueChanged(_ sender: UITextField) {
+
+    @IBAction func textFieldValueChanged(_ sender: InsetTextField) {
         guard let text = sender.text else {
             return
         }
