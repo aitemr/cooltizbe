@@ -9,7 +9,7 @@ class SearchViewController: UIViewController {
     
     private var searcService: SearchService!
     
-    var items: [Search]? {
+    var responses: [SearchResponse]? {
         didSet {
             tableView.reloadData()
         }
@@ -91,12 +91,12 @@ class SearchViewController: UIViewController {
     
     private func loadData(with query: String) {
         searcService = SearchService()
-        searcService.search(with: query) { [weak self] (items) in
-            guard let items = items else {
+        searcService.search(with: query) { [weak self] (responses) in
+            guard let responses = responses else {
                 return
             }
             
-            self?.items = items
+            self?.responses = responses
         }
     }
 }
@@ -106,17 +106,17 @@ class SearchViewController: UIViewController {
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items?.count ?? 0
+        return responses?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SearchResultTableViewCell.self),
                                                  for: indexPath) as! SearchResultTableViewCell
-        guard let item = items?[indexPath.row] else {
+        guard let response = responses?[indexPath.row] else {
             return UITableViewCell()
         }
         
-        cell.configureCell(with: item)
+        cell.configureCell(with: response)
         
         return cell
     }

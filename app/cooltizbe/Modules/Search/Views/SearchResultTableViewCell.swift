@@ -9,8 +9,8 @@ class SearchResultTableViewCell: UITableViewCell {
     
     // MARK: - Public
     
-    func configureCell(with model: Search) {
-        nameLabel.text = model.nameEn
-        typeLabel.text = model.type
+    func configureCell(with response: SearchResponse) {
+        nameLabel.text = response.name
+        typeLabel.text = response.type.rawValue
     }
 }
