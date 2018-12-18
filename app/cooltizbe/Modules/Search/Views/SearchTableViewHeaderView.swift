@@ -1,10 +1,16 @@
 import UIKit
 
+protocol SearchTableViewHeaderViewDelegate: class {
+    func textFieldValueChanged(on view: SearchTableViewHeaderView, text: String)
+}
+
 class SearchTableViewHeaderView: UIView {
 
     // MARK: - Properties
     
     @IBOutlet private weak var searchTextField: InsetTextField!
+    
+    private weak var delegate: SearchTableViewHeaderViewDelegate!
     
     // MARK: - Initialization
     
@@ -18,5 +24,15 @@ class SearchTableViewHeaderView: UIView {
         super.init(coder: aDecoder)
         
         loadFromNib()
+    }
+    
+    // MARK: - Actions
+    
+    @IBAction func textFieldValueChanged(_ sender: UITextField) {
+        guard let text = sender.text else {
+            return
+        }
+        
+        delegate.textFieldValueChanged(on: self, text: text)
     }
 }

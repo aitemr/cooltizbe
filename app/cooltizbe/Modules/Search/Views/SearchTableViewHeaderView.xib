@@ -36,6 +36,9 @@
                             <real key="value" value="0.0"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="textFieldValueChanged:" destination="-1" eventType="editingDidEnd" id="v8H-Kx-N8z"/>
+                    </connections>
                 </textField>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S7I-Ib-rfg">
                     <rect key="frame" x="0.0" y="49" width="375" height="1"/>
