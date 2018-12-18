@@ -9,4 +9,8 @@ class ScheduleTableViewCell: UITableViewCell {
     @IBOutlet private weak var timeLabel: UILabel!
     @IBOutlet private weak var roomLabel: UILabel!
     
+    // MARK: - Public
+    
+    func configureCell(with schedule: Schedule) { }
+    
 }
