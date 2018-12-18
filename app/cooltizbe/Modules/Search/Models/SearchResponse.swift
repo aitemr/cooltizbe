@@ -9,10 +9,10 @@ enum Type: String, Codable {
 struct SearchResponse: Codable {
     let id: String
     let type: Type
-    let nameEn: String
+    let name: String
     
     private enum CodingKeys: String, CodingKey {
         case id, type
-        case nameEn = "name_en"
+        case name = "name_en"
     }
 }
