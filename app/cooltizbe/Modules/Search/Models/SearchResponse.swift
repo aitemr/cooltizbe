@@ -1,6 +1,6 @@
 import UIKit
 
-enum Type: String, Codable {
+enum SearchType: String, Codable {
     case group
     case room
     case teacher
@@ -8,7 +8,7 @@ enum Type: String, Codable {
 
 struct SearchResponse: Codable {
     let id: String
-    let type: Type
+    let type: SearchType
     let name: String
     
     private enum CodingKeys: String, CodingKey {
