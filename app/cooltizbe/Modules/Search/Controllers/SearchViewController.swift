@@ -7,6 +7,8 @@ class SearchViewController: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView!
     
+    private var searcService: SearchService!
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -39,6 +41,8 @@ class SearchViewController: UIViewController {
         configureTableViewHeaderView()
         configureTableViewFooterView()
         configureDZNEmptyDataSet()
+        
+        loadData()
     }
     
     // MARK: Register TableView Cells
@@ -76,6 +80,15 @@ class SearchViewController: UIViewController {
     
     @objc private func closeButtonDidPress() {
         dismiss(animated: true, completion: nil)
+    }
+    
+    // MARK: - Load Data
+    
+    private func loadData() {
+        searcService = SearchService()
+        searcService.search(with: "marina") { (items) in
+            print(items)
+        }
     }
     
 }
