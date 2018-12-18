@@ -4,13 +4,13 @@ class SearchResultTableViewCell: UITableViewCell {
     
     // MARK: - Properties
     
-    @IBOutlet private weak var groupNameLabel: UILabel!
-    @IBOutlet private weak var groupFullNameLabel: UILabel!
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var typeLabel: UILabel!
     
     // MARK: - Public
     
     func configureCell(with model: Search) {
-        groupNameLabel.text = model.nameEn
-        groupFullNameLabel.text = "Computer Science"
+        nameLabel.text = model.nameEn
+        typeLabel.text = model.type
     }
 }

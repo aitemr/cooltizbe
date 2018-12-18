@@ -65,7 +65,7 @@ class SearchViewController: UIViewController {
                                                                  y: 0,
                                                                  width: tableView.frame.width,
                                                                  height: 50))
-//        tableHeaderView.delegate = self
+        tableHeaderView.delegate = self
         tableView.tableHeaderView = tableHeaderView
     }
     
