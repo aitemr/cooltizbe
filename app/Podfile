@@ -9,7 +9,7 @@ target 'cooltizbe' do
   pod 'SwiftLint', '0.28.2'
   pod 'SkeletonView', '1.4.1'
   pod 'DZNEmptyDataSet', '1.8.1'
-  pod 'Alamofire', '4.8.0'
+  pod 'CodableAlamofire', '1.1.0'
 
   target 'cooltizbeTests' do
     inherit! :search_paths

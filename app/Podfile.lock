@@ -8,6 +8,8 @@ PODS:
   - AppCenter/Core (1.9.0)
   - AppCenter/Crashes (1.9.0):
     - AppCenter/Core
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
   - DZNEmptyDataSet (1.8.1)
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
@@ -16,8 +18,8 @@ PODS:
   - SwiftLint (0.28.2)
 
 DEPENDENCIES:
-  - Alamofire (= 4.8.0)
   - AppCenter (= 1.9.0)
+  - CodableAlamofire
   - DZNEmptyDataSet (= 1.8.1)
   - RxCocoa (= 4.3.1)
   - RxSwift (= 4.3.1)
@@ -28,6 +30,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AppCenter
+    - CodableAlamofire
     - DZNEmptyDataSet
     - RxCocoa
     - RxSwift
@@ -37,12 +40,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   AppCenter: 3cf7b9387549e9703dab068793e404013e8c0cc1
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   SkeletonView: 60d6ce7edb0cb4c7758db33c74add50392b3c475
   SwiftLint: f1629ae733b64e9cad20052de01d1debd5b640e7
 
-PODFILE CHECKSUM: bc47871945094b6afd28b1598ad4a1505405b678
+PODFILE CHECKSUM: cc332f86260a71ae03b37896cd6485df8d9f112b
 
 COCOAPODS: 1.5.3
