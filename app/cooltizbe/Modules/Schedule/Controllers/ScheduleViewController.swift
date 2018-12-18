@@ -4,8 +4,18 @@ import DZNEmptyDataSet
 class ScheduleViewController: UIViewController {
 
     // MARK: - Properties
+
+    var response: SearchResponse?
     
     @IBOutlet private weak var tableView: UITableView!
+    
+    private var scheduleService: ScheduleService!
+
+    private var schedule: [Schedule]? {
+        didSet {
+            tableView.reloadData()
+        }
+    }
     
     // MARK: - Lifecycle
     
@@ -14,13 +24,12 @@ class ScheduleViewController: UIViewController {
 
         configureNavigationBar()
         configureTableView()
+        loadData()
     }
     
     // MARK: - Configure Navigation Bar
     
     private func configureNavigationBar() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "CSSE-145K", style: .plain, target: self, action: nil)
-        
         let searchBarButtonItem = UIBarButtonItem(image: UIImage(named: "schedule_search"),
                                                   style: .plain,
                                                   target: self,
@@ -32,6 +41,12 @@ class ScheduleViewController: UIViewController {
                                                     action: #selector(settingsBarButtonItemDidPress))
         
         navigationItem.rightBarButtonItems = [settingsBarButtonItem, searchBarButtonItem]
+
+        guard let title = response?.name else {
+            return
+        }
+
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: title, style: .plain, target: self, action: nil)
     }
 
     // MARK: - Configure TableView
@@ -77,6 +92,23 @@ class ScheduleViewController: UIViewController {
         tableView.emptyDataSetSource = self
     }
     
+    // MARK: - Load Data
+    
+    private func loadData() {
+        guard let response = response else {
+            return
+        }
+        
+        scheduleService = ScheduleService()
+        scheduleService.loadSchedule(with: response) { (schedule) in
+            guard let schedule = schedule else {
+                return
+            }
+            
+            print(schedule)
+        }
+    }
+    
     // MARK: - Actions
     
     @objc private func searchBarButtonItemDidPress() {
@@ -94,12 +126,20 @@ class ScheduleViewController: UIViewController {
 extension ScheduleViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return schedule?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(withIdentifier: String(describing: ScheduleTableViewCell.self),
-                                             for: indexPath) as! ScheduleTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ScheduleTableViewCell.self),
+                                                 for: indexPath) as! ScheduleTableViewCell
+        
+        guard let schedule = schedule?[indexPath.row] else {
+            return UITableViewCell()
+        }
+        
+        cell.configureCell(with: schedule)
+    
+        return cell
     }
     
 }
