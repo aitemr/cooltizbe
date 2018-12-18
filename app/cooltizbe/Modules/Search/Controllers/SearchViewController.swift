@@ -123,7 +123,14 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        present(UINavigationController(rootViewController: ScheduleViewController()), animated: true, completion: nil)
+        guard let response = responses?[indexPath.row] else {
+            return
+        }
+        
+        let vc = ScheduleViewController()
+        vc.response = response
+        
+        present(UINavigationController(rootViewController: vc), animated: true, completion: nil)
     }
     
 }

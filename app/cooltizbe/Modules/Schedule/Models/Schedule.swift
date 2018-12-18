@@ -1,5 +1,5 @@
 import UIKit
 
-class Schedule: NSObject {
+struct Schedule: Codable {
 
 }

@@ -88,6 +88,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="roomLabel" destination="xS0-qv-dtN" id="7l0-O4-X8s"/>
                 <outlet property="subjectNameLabel" destination="2XS-Dx-lmh" id="P9L-3v-lKr"/>

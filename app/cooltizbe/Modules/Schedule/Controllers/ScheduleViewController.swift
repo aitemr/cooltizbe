@@ -1,5 +1,6 @@
 import UIKit
 import DZNEmptyDataSet
+import SkeletonView
 
 class ScheduleViewController: UIViewController {
 
@@ -99,12 +100,15 @@ class ScheduleViewController: UIViewController {
             return
         }
         
+        tableView.showSkeleton()
+        
         scheduleService = ScheduleService()
         scheduleService.loadSchedule(with: response) { (schedule) in
             guard let schedule = schedule else {
                 return
             }
             
+            self.tableView.hideSkeleton()
             print(schedule)
         }
     }
@@ -121,9 +125,22 @@ class ScheduleViewController: UIViewController {
     
 }
 
-// MARK: - UITableViewDataSource
+// MARK: - SkeletonTableViewDataSource, UITableViewDataSource
 
-extension ScheduleViewController: UITableViewDataSource {
+extension ScheduleViewController: SkeletonTableViewDataSource {
+    
+    // MARK: SkeletonTableViewDataSource
+    
+    func collectionSkeletonView(_ skeletonView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func collectionSkeletonView(_ skeletonView: UITableView,
+                                cellIdentifierForRowAt indexPath: IndexPath) -> ReusableCellIdentifier {
+        return String(describing: ScheduleTableViewCell.self)
+    }
+    
+    // MARK: UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return schedule?.count ?? 0
@@ -141,7 +158,6 @@ extension ScheduleViewController: UITableViewDataSource {
     
         return cell
     }
-    
 }
 
 // MARK: - DZNEmptyDataSetSource
