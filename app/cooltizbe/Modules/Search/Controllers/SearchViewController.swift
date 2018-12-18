@@ -133,11 +133,11 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
 extension SearchViewController: DZNEmptyDataSetSource {
     
     func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
-        return NSAttributedString(string: "😭", attributes: nil)
+        return NSAttributedString(string: "🐣", attributes: nil)
     }
     
     func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
-        return NSAttributedString(string: "Sorry, not found. Try again!",
+        return NSAttributedString(string: "Enter group, room, teacher",
                                   attributes: [NSAttributedString.Key.foregroundColor: UIColor.mediumPurple])
     }
 }
