@@ -3,12 +3,10 @@ import CodableAlamofire
 
 struct ScheduleService {
     
-    func loadSchedule(for id: String, completion: @escaping([Schedule]?) -> Void) {
-        // http://schedule.iitu.kz/rest/user/get_timetable_room.php?bundle_id=291
-        // http://schedule.iitu.kz/rest/user/get_timetable_block.php?block_id=22223
-        // http://schedule.iitu.kz/rest/user/get_timetable_teacher.php?teacher_id=759
+    func loadSchedule(with response: SearchResponse, completion: @escaping([Schedule]?) -> Void) {
+        let path = getSearchQueryPath(for: response.type)
         
-        guard let url = URL(string: "http://schedule.iitu.kz/rest/user/get_timetable_block.php?block_id=\(id)") else {
+        guard let url = URL(string: "http://schedule.iitu.kz/rest/user/\(path)=\(response.id)") else {
             completion(nil)
             return
         }
@@ -16,7 +14,7 @@ struct ScheduleService {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         
-        Alamofire.request(url).responseDecodableObject(keyPath: "result", decoder: decoder) {
+        Alamofire.request(url).responseDecodableObject(keyPath: "timetable", decoder: decoder) {
             (response: DataResponse<[Schedule]>) in
             
             if !response.result.isSuccess {
@@ -28,4 +26,16 @@ struct ScheduleService {
         }
     }
     
+    // MARK: - Get Search Path
+    
+    private func getSearchQueryPath(for type: SearchType) -> String {
+        switch type {
+        case .teacher:
+            return "teacher.php?teacher_id"
+        case .group:
+            return "block.php?block_id"
+        case .room:
+            return "room.php?bundle_id"
+        }
+    }
 }
