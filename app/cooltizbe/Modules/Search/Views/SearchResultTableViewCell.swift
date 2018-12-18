@@ -4,7 +4,7 @@ class SearchResultTableViewCell: UITableViewCell {
     
     // MARK: - Properties
     
-    @IBOutlet private weak var groupName: UILabel!
-    @IBOutlet private weak var groupFullName: UILabel!
+    @IBOutlet private weak var groupNameLabel: UILabel!
+    @IBOutlet private weak var groupFullNameLabel: UILabel!
     
 }

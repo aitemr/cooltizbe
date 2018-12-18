@@ -53,7 +53,7 @@
             <connections>
                 <outlet property="cellImageView" destination="dfV-fj-l6D" id="Sml-wA-yta"/>
                 <outlet property="switcher" destination="pu8-v3-HcW" id="QdZ-10-VVg"/>
-                <outlet property="title" destination="MzW-vF-E2Y" id="6zI-Te-UPo"/>
+                <outlet property="titleLabel" destination="MzW-vF-E2Y" id="CfB-6F-diQ"/>
             </connections>
             <point key="canvasLocation" x="137.59999999999999" y="152.47376311844079"/>
         </tableViewCell>

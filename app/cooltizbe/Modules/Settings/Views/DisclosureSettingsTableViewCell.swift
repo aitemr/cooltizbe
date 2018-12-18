@@ -5,8 +5,8 @@ class DisclosureSettingsTableViewCell: UITableViewCell {
     // MARK: - Properties
     
     @IBOutlet private weak var cellImageView: UIImageView!
-    @IBOutlet private weak var title: UILabel!
-    @IBOutlet private weak var subTitle: UILabel!
+    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet private weak var subTitleLabel: UILabel!
     
     // MARK: - Lifecycle
     

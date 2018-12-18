@@ -5,7 +5,7 @@ class SettingsTableViewCell: UITableViewCell {
     // MARK: - Properties
     
     @IBOutlet private weak var cellImageView: UIImageView!
-    @IBOutlet private weak var title: UILabel!
+    @IBOutlet private weak var titleLabel: UILabel!
     
     // MARK: - Lifecycle
     
