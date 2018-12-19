@@ -11,8 +11,6 @@ struct ScheduleService {
             return
         }
         
-//        http://schedule.iitu.kz/rest/user/get_timetable_teacher.php?teacher_id=759
-        
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         
