@@ -14,16 +14,16 @@ struct ScheduleService {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         
-        Alamofire.request(url).responseDecodableObject(keyPath: "timetable", decoder: decoder) {
-            (response: DataResponse<[Schedule]>) in
-            
-            if !response.result.isSuccess {
-                completion(nil)
-                return
-            }
-            
-            completion(response.result.value)
-        }
+//        Alamofire.request(url).responseDecodableObject(keyPath: "timetable", decoder: decoder) {
+//            (response: DataResponse<[Schedule]>) in
+//            
+//            if !response.result.isSuccess {
+//                completion(nil)
+//                return
+//            }
+//            
+//            completion(response.result.value)
+//        }
     }
     
     // MARK: - Get Search Path

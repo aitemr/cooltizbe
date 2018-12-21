@@ -100,17 +100,17 @@ class ScheduleViewController: UIViewController {
             return
         }
         
-        tableView.showSkeleton()
+        tableView.showAnimatedGradientSkeleton()
         
         scheduleService = ScheduleService()
-        scheduleService.loadSchedule(with: response) { (schedule) in
-            guard let schedule = schedule else {
-                return
-            }
-            
-            self.tableView.hideSkeleton()
-            print(schedule)
-        }
+//        scheduleService.loadSchedule(with: response) { (schedule) in
+//            guard let schedule = schedule else {
+//                return
+//            }
+//
+//            self.tableView.hideSkeleton()
+//            print(schedule)
+//        }
     }
     
     // MARK: - Actions
