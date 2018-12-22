@@ -57,6 +57,9 @@ class ScheduleViewController: UIViewController {
         
         tableView.allowsSelection = false
         
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 145
+        
         registerTableViewCells()
         configureTableViewHeaderView()
         configureTableViewFooterView()
