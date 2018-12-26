@@ -1,0 +1,493 @@
+{
+    "status": 0,
+    "error_message": null,
+    "timetable": {
+        "1": {
+            "1": [
+                {
+                    "id": "5286",
+                    "subject_id": "2835",
+                    "subject_type_id": "1",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "302",
+                    "day_id": "1",
+                    "time_id": "1"
+                }
+            ],
+            "2": [
+                {
+                    "id": "5287",
+                    "subject_id": "2835",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "394",
+                    "day_id": "1",
+                    "time_id": "2"
+                }
+            ],
+            "3": [
+                {
+                    "id": "5288",
+                    "subject_id": "2835",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "394",
+                    "day_id": "1",
+                    "time_id": "3"
+                }
+            ],
+            "4": [
+                {
+                    "id": "5289",
+                    "subject_id": "2835",
+                    "subject_type_id": "2",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "393",
+                    "day_id": "1",
+                    "time_id": "4"
+                }
+            ],
+            "6": [
+                {
+                    "id": "6949",
+                    "subject_id": "3041",
+                    "subject_type_id": "1",
+                    "block_id": "22071",
+                    "teacher_id": "901",
+                    "regalia_id": "79",
+                    "appointment_id": "62",
+                    "bundle_id": "310",
+                    "day_id": "1",
+                    "time_id": "6"
+                }
+            ]
+        },
+        "2": {
+            "9": [
+                {
+                    "id": "7366",
+                    "subject_id": "2826",
+                    "subject_type_id": "1",
+                    "block_id": "22071",
+                    "teacher_id": "1000",
+                    "regalia_id": "78",
+                    "appointment_id": "58",
+                    "bundle_id": "313",
+                    "day_id": "2",
+                    "time_id": "9"
+                }
+            ],
+            "10": [
+                {
+                    "id": "7367",
+                    "subject_id": "2826",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "1000",
+                    "regalia_id": "78",
+                    "appointment_id": "58",
+                    "bundle_id": "306",
+                    "day_id": "2",
+                    "time_id": "10"
+                }
+            ],
+            "11": [
+                {
+                    "id": "7368",
+                    "subject_id": "2826",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "1000",
+                    "regalia_id": "78",
+                    "appointment_id": "58",
+                    "bundle_id": "306",
+                    "day_id": "2",
+                    "time_id": "11"
+                }
+            ]
+        },
+        "3": {
+            "2": [
+                {
+                    "id": "5300",
+                    "subject_id": "2833",
+                    "subject_type_id": "2",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "291",
+                    "day_id": "3",
+                    "time_id": "2"
+                }
+            ],
+            "3": [
+                {
+                    "id": "6925",
+                    "subject_id": "2833",
+                    "subject_type_id": "1",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "291",
+                    "day_id": "3",
+                    "time_id": "3"
+                }
+            ],
+            "4": [
+                {
+                    "id": "5298",
+                    "subject_id": "2833",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "288",
+                    "day_id": "3",
+                    "time_id": "4"
+                }
+            ],
+            "5": [
+                {
+                    "id": "5299",
+                    "subject_id": "2833",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "689",
+                    "regalia_id": "77",
+                    "appointment_id": "62",
+                    "bundle_id": "290",
+                    "day_id": "3",
+                    "time_id": "5"
+                }
+            ],
+            "6": [
+                {
+                    "id": "6926",
+                    "subject_id": "3041",
+                    "subject_type_id": "2",
+                    "block_id": "22071",
+                    "teacher_id": "901",
+                    "regalia_id": "79",
+                    "appointment_id": "62",
+                    "bundle_id": "322",
+                    "day_id": "3",
+                    "time_id": "6"
+                }
+            ]
+        },
+        "6": {
+            "1": [
+                {
+                    "id": "6950",
+                    "subject_id": "2831",
+                    "subject_type_id": "2",
+                    "block_id": "22071",
+                    "teacher_id": "996",
+                    "regalia_id": "78",
+                    "appointment_id": "57",
+                    "bundle_id": "308",
+                    "day_id": "6",
+                    "time_id": "1"
+                }
+            ],
+            "2": [
+                {
+                    "id": "6922",
+                    "subject_id": "2831",
+                    "subject_type_id": "1",
+                    "block_id": "22071",
+                    "teacher_id": "996",
+                    "regalia_id": "78",
+                    "appointment_id": "57",
+                    "bundle_id": "308",
+                    "day_id": "6",
+                    "time_id": "2"
+                }
+            ],
+            "3": [
+                {
+                    "id": "6923",
+                    "subject_id": "2831",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "996",
+                    "regalia_id": "78",
+                    "appointment_id": "57",
+                    "bundle_id": "320",
+                    "day_id": "6",
+                    "time_id": "3"
+                }
+            ],
+            "4": [
+                {
+                    "id": "6924",
+                    "subject_id": "2831",
+                    "subject_type_id": "3",
+                    "block_id": "22071",
+                    "teacher_id": "996",
+                    "regalia_id": "78",
+                    "appointment_id": "57",
+                    "bundle_id": "320",
+                    "day_id": "6",
+                    "time_id": "4"
+                }
+            ]
+        }
+    },
+    "subjects": {
+        "2826": {
+            "subject_en": "Web programming 1",
+            "subject_ru": "Web программирование 1",
+            "subject_kk": "Web бағдарламалау 1"
+        },
+        "2831": {
+            "subject_en": "Advanced Java EE design",
+            "subject_ru": "Продвинутое проектирование на Java EE",
+            "subject_kk": "Java EE-де жоғарғы деңгейлі жобалау"
+        },
+        "2833": {
+            "subject_en": "Mastering Data Analysis (Data Analysis 2)",
+            "subject_ru": "Анализ данных 2 (продвинутый)",
+            "subject_kk": "Жоғарғы деңгейлі деректерді талдау (Data Analysis 2)"
+        },
+        "2835": {
+            "subject_en": "Oracle Database 11g: Programming with PL\\SQL",
+            "subject_ru": "Oracle Database 11g: программирование на PL\\SQL",
+            "subject_kk": "Oracle Database 11g: PL\\SQL бағдарламалау"
+        },
+        "3041": {
+            "subject_en": "Fundamentals of Safety",
+            "subject_ru": "Основы безопасности жизнедеятельности",
+            "subject_kk": "Тіршілік қауіпсіздігі негіздері"
+        }
+    },
+    "subject_types": {
+        "1": {
+            "subject_type_en": "lecture",
+            "subject_type_ru": "лекция",
+            "subject_type_kk": "дәріс"
+        },
+        "2": {
+            "subject_type_en": "practice",
+            "subject_type_ru": "практика",
+            "subject_type_kk": "тәжірибе"
+        },
+        "3": {
+            "subject_type_en": "lab",
+            "subject_type_ru": "лабораторная работа",
+            "subject_type_kk": "зертханалық жұмыс"
+        }
+    },
+    "teachers": {
+        "689": {
+            "teacher_en": "Omarov B. .",
+            "teacher_ru": "Омаров Б. .",
+            "teacher_kk": "Омаров Б. ."
+        },
+        "901": {
+            "teacher_en": "Malgadzharova M..",
+            "teacher_ru": "Малгаждарова М..",
+            "teacher_kk": "Малгаждарова М.."
+        },
+        "996": {
+            "teacher_en": "Tolegen Zh.U.",
+            "teacher_ru": "Толеген Ж.У.",
+            "teacher_kk": "Төлеген Ж.У."
+        },
+        "1000": {
+            "teacher_en": "Rakhatov D.T.",
+            "teacher_ru": "Рахатов Д.Т.",
+            "teacher_kk": "Рахатов Д.Т."
+        }
+    },
+    "regalias": {
+        "77": {
+            "regalia_en": "PhD",
+            "regalia_ru": "PhD",
+            "regalia_kk": "PhD"
+        },
+        "78": {
+            "regalia_en": "master",
+            "regalia_ru": "магистр",
+            "regalia_kk": "магистр"
+        },
+        "79": {
+            "regalia_en": "-",
+            "regalia_ru": "-",
+            "regalia_kk": "-"
+        }
+    },
+    "appointments": {
+        "57": {
+            "appointment_en": "senior Lecturer",
+            "appointment_ru": "сениор-лектор",
+            "appointment_kk": "сениор-лектор"
+        },
+        "58": {
+            "appointment_en": "tutor",
+            "appointment_ru": "тьютор",
+            "appointment_kk": "тьютор"
+        },
+        "62": {
+            "appointment_en": "assistant Professor",
+            "appointment_ru": "ассистент-профессор",
+            "appointment_kk": "ассистент-профессор"
+        }
+    },
+    "bundles": {
+        "288": {
+            "0": {
+                "name_en": "305",
+                "name_ru": "305",
+                "name_kk": "305"
+            },
+            "type": "room"
+        },
+        "290": {
+            "0": {
+                "name_en": "307",
+                "name_ru": "307",
+                "name_kk": "307"
+            },
+            "type": "room"
+        },
+        "291": {
+            "0": {
+                "name_en": "401",
+                "name_ru": "401",
+                "name_kk": "401"
+            },
+            "type": "room"
+        },
+        "302": {
+            "0": {
+                "name_en": "603",
+                "name_ru": "603",
+                "name_kk": "603"
+            },
+            "type": "room"
+        },
+        "306": {
+            "0": {
+                "name_en": "607",
+                "name_ru": "607",
+                "name_kk": "607"
+            },
+            "type": "room"
+        },
+        "308": {
+            "0": {
+                "name_en": "702",
+                "name_ru": "702",
+                "name_kk": "702"
+            },
+            "type": "room"
+        },
+        "310": {
+            "0": {
+                "name_en": "704",
+                "name_ru": "704",
+                "name_kk": "704"
+            },
+            "type": "room"
+        },
+        "313": {
+            "0": {
+                "name_en": "805",
+                "name_ru": "805",
+                "name_kk": "805"
+            },
+            "type": "room"
+        },
+        "320": {
+            "0": {
+                "name_en": "608",
+                "name_ru": "608",
+                "name_kk": "608"
+            },
+            "type": "room"
+        },
+        "322": {
+            "0": {
+                "name_en": "902",
+                "name_ru": "902",
+                "name_kk": "902"
+            },
+            "type": "room"
+        },
+        "393": {
+            "0": {
+                "name_en": "707",
+                "name_ru": "707",
+                "name_kk": "707"
+            },
+            "type": "room"
+        },
+        "394": {
+            "0": {
+                "name_en": "611",
+                "name_ru": "611",
+                "name_kk": "611"
+            },
+            "type": "room"
+        }
+    },
+    "times": {
+        "1": {
+            "start_time": "08:00:00",
+            "end_time": "08:50:00"
+        },
+        "2": {
+            "start_time": "09:00:00",
+            "end_time": "09:50:00"
+        },
+        "3": {
+            "start_time": "10:00:00",
+            "end_time": "10:50:00"
+        },
+        "4": {
+            "start_time": "11:00:00",
+            "end_time": "11:50:00"
+        },
+        "5": {
+            "start_time": "12:10:00",
+            "end_time": "13:00:00"
+        },
+        "6": {
+            "start_time": "13:10:00",
+            "end_time": "14:00:00"
+        },
+        "9": {
+            "start_time": "16:10:00",
+            "end_time": "17:00:00"
+        },
+        "10": {
+            "start_time": "17:20:00",
+            "end_time": "18:10:00"
+        },
+        "11": {
+            "start_time": "18:30:00",
+            "end_time": "19:20:00"
+        }
+    },
+    "blocks": {
+        "22071": {
+            "name": "CS-1501"
+        }
+    }
+}
