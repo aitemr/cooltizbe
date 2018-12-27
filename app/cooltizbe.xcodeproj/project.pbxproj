@@ -303,12 +303,36 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		AD76EE04219C9BB000E99503 /* Extensions */ = {
+		AD4F903E21D5382C0005D50A /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
 				AD84416D21C4154700BB0F3B /* UIColor+Colors.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		AD4F903F21D538340005D50A /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
 				ADAA754421C68C8F00F7E064 /* UITextField+Inset.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		AD4F904021D5383B0005D50A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
 				AD4AD42421C6BF70006D246D /* UIView+Nib.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		AD76EE04219C9BB000E99503 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD4F904021D5383B0005D50A /* UIView */,
+				AD4F903F21D538340005D50A /* UITextField */,
+				AD4F903E21D5382C0005D50A /* UIColor */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
