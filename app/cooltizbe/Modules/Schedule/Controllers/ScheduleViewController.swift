@@ -99,9 +99,9 @@ class ScheduleViewController: UIViewController {
     // MARK: - Load Data
     
     private func loadData() {
-        guard let response = response else {
-            return
-        }
+//        guard let response = response else {
+//            return
+//        }
         
         tableView.showAnimatedGradientSkeleton()
         
