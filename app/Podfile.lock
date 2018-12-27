@@ -11,6 +11,7 @@ PODS:
   - CodableAlamofire (1.1.0):
     - Alamofire (~> 4.0)
   - DZNEmptyDataSet (1.8.1)
+  - lottie-ios (2.5.2)
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
   - RxSwift (4.3.1)
@@ -19,8 +20,9 @@ PODS:
 
 DEPENDENCIES:
   - AppCenter (= 1.9.0)
-  - CodableAlamofire
+  - CodableAlamofire (= 1.1.0)
   - DZNEmptyDataSet (= 1.8.1)
+  - lottie-ios
   - RxCocoa (= 4.3.1)
   - RxSwift (= 4.3.1)
   - SkeletonView (= 1.4.1)
@@ -32,6 +34,7 @@ SPEC REPOS:
     - AppCenter
     - CodableAlamofire
     - DZNEmptyDataSet
+    - lottie-ios
     - RxCocoa
     - RxSwift
     - SkeletonView
@@ -42,11 +45,12 @@ SPEC CHECKSUMS:
   AppCenter: 3cf7b9387549e9703dab068793e404013e8c0cc1
   CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   SkeletonView: 60d6ce7edb0cb4c7758db33c74add50392b3c475
   SwiftLint: f1629ae733b64e9cad20052de01d1debd5b640e7
 
-PODFILE CHECKSUM: cc332f86260a71ae03b37896cd6485df8d9f112b
+PODFILE CHECKSUM: 6d33f5846a4e6c115c61f7772e8b1ad2f6cc70f9
 
 COCOAPODS: 1.5.3

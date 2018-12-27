@@ -33,6 +33,7 @@ It's built with:
 * [SwiftLint](https://github.com/realm/SwiftLint)
 * [App Center](https://github.com/Microsoft/AppCenter-SDK-Apple)
 * [SkeletonView](https://github.com/Juanpe/SkeletonView)
+* [Lottie](https://github.com/airbnb/lottie-ios)
 
 ## Support
 
