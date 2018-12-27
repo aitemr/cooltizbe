@@ -327,6 +327,14 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		AD4F904121D545620005D50A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ADF142A42187548100844794 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		AD76EE04219C9BB000E99503 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,7 +501,7 @@
 		ADF142A32187548100844794 /* cooltizbe */ = {
 			isa = PBXGroup;
 			children = (
-				ADF142A42187548100844794 /* AppDelegate.swift */,
+				AD4F904121D545620005D50A /* Application */,
 				AD871CD521AD8EF4000EB149 /* Modules */,
 				AD76EE05219C9C0000E99503 /* Resources */,
 				AD76EE04219C9BB000E99503 /* Extensions */,
