@@ -22,7 +22,7 @@ DEPENDENCIES:
   - AppCenter (= 1.9.0)
   - CodableAlamofire (= 1.1.0)
   - DZNEmptyDataSet (= 1.8.1)
-  - lottie-ios
+  - lottie-ios (= 2.5.2)
   - RxCocoa (= 4.3.1)
   - RxSwift (= 4.3.1)
   - SkeletonView (= 1.4.1)
@@ -51,6 +51,6 @@ SPEC CHECKSUMS:
   SkeletonView: 60d6ce7edb0cb4c7758db33c74add50392b3c475
   SwiftLint: f1629ae733b64e9cad20052de01d1debd5b640e7
 
-PODFILE CHECKSUM: 6d33f5846a4e6c115c61f7772e8b1ad2f6cc70f9
+PODFILE CHECKSUM: f4e62803d79c1f6a617d5d6f0a3e5d30eedd7a48
 
 COCOAPODS: 1.5.3
